@@ -4,6 +4,25 @@ Class {
 	#category : #'Bootstrap4-Icons-Library'
 }
 
+{ #category : #'importing-methods' }
+SBSIconsFileLibrary class >> importIconFrom: aFileReference [
+"Imports a single icon from the file reference and removes linefeeds from the content"
+
+	self addFileNamed: aFileReference  basename  contents: (aFileReference  contents copyReplaceAll: String lf with: '')
+
+
+]
+
+{ #category : #'importing-methods' }
+SBSIconsFileLibrary class >> importIconsFromDirectory: aFileReference [
+
+|icons|
+
+icons := aFileReference asFileReference filesMatching: '*.svg'.
+
+icons do: [ :file | 	self importIconFrom: file. ]
+]
+
 { #category : #'uploaded metadata' }
 SBSIconsFileLibrary >> alarmSvg [
 	^ WAFileLibraryResource
