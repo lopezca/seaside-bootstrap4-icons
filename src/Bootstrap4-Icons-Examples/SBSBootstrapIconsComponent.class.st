@@ -159,7 +159,7 @@ SBSBootstrapIconsComponent >> renderHeroContentOn: html [
 							html text: ' and subject to sweeping changes.' ] ] ].
 	html horizontalRule class: 'my-4'.
 	html paragraph textMuted
-		with: [ html text: 'Currently v1.0.0-alpha5'.
+		with: [ html text: 'Currently v1.7.1'.
 			html span
 				class: 'px-1';
 				with: '•'.
