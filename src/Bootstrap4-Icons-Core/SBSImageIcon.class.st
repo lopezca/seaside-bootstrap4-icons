@@ -16,6 +16,12 @@ SBSImageIcon class >> on: aWAImageTag [
 ]
 
 { #category : #icons }
+SBSImageIcon >> activity [
+	self setImageTagUrl:'activity'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> alarm [
 	self setImageTagUrl:'alarm'.
 	^imageTag
@@ -78,6 +84,12 @@ SBSImageIcon >> app [
 { #category : #icons }
 SBSImageIcon >> appIndicator [
 	self setImageTagUrl:'app-indicator'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> apple [
+	self setImageTagUrl:'apple'.
 	^imageTag
 ]
 
@@ -550,6 +562,18 @@ SBSImageIcon >> backspaceReverseFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> badge3d [
+	self setImageTagUrl:'badge-3d'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badge3dFill [
+	self setImageTagUrl:'badge-3d-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> badge4k [
 	self setImageTagUrl:'badge-4k'.
 	^imageTag
@@ -570,6 +594,30 @@ SBSImageIcon >> badge8k [
 { #category : #icons }
 SBSImageIcon >> badge8kFill [
 	self setImageTagUrl:'badge-8k-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeAd [
+	self setImageTagUrl:'badge-ad'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeAdFill [
+	self setImageTagUrl:'badge-ad-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeAr [
+	self setImageTagUrl:'badge-ar'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeArFill [
+	self setImageTagUrl:'badge-ar-fill'.
 	^imageTag
 ]
 
@@ -622,6 +670,30 @@ SBSImageIcon >> badgeVoFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> badgeVr [
+	self setImageTagUrl:'badge-vr'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeVrFill [
+	self setImageTagUrl:'badge-vr-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeWc [
+	self setImageTagUrl:'badge-wc'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> badgeWcFill [
+	self setImageTagUrl:'badge-wc-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> bag [
 	self setImageTagUrl:'bag'.
 	^imageTag
@@ -634,8 +706,20 @@ SBSImageIcon >> bagCheck [
 ]
 
 { #category : #icons }
+SBSImageIcon >> bagCheckFill [
+	self setImageTagUrl:'bag-check-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> bagDash [
 	self setImageTagUrl:'bag-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bagDashFill [
+	self setImageTagUrl:'bag-dash-fill'.
 	^imageTag
 ]
 
@@ -648,6 +732,48 @@ SBSImageIcon >> bagFill [
 { #category : #icons }
 SBSImageIcon >> bagPlus [
 	self setImageTagUrl:'bag-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bagPlusFill [
+	self setImageTagUrl:'bag-plus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bagX [
+	self setImageTagUrl:'bag-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bagXFill [
+	self setImageTagUrl:'bag-x-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bandaid [
+	self setImageTagUrl:'bandaid'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bandaidFill [
+	self setImageTagUrl:'bandaid-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bank [
+	self setImageTagUrl:'bank'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bank2 [
+	self setImageTagUrl:'bank2'.
 	^imageTag
 ]
 
@@ -742,6 +868,12 @@ SBSImageIcon >> batteryHalf [
 ]
 
 { #category : #icons }
+SBSImageIcon >> behance [
+	self setImageTagUrl:'behance'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> bell [
 	self setImageTagUrl:'bell'.
 	^imageTag
@@ -750,6 +882,18 @@ SBSImageIcon >> bell [
 { #category : #icons }
 SBSImageIcon >> bellFill [
 	self setImageTagUrl:'bell-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bellSlash [
+	self setImageTagUrl:'bell-slash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bellSlashFill [
+	self setImageTagUrl:'bell-slash-fill'.
 	^imageTag
 ]
 
@@ -796,6 +940,18 @@ SBSImageIcon >> blockquoteRight [
 ]
 
 { #category : #icons }
+SBSImageIcon >> bluetooth [
+	self setImageTagUrl:'bluetooth'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bodyText [
+	self setImageTagUrl:'body-text'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> book [
 	self setImageTagUrl:'book'.
 	^imageTag
@@ -826,8 +982,20 @@ SBSImageIcon >> bookmarkCheck [
 ]
 
 { #category : #icons }
+SBSImageIcon >> bookmarkCheckFill [
+	self setImageTagUrl:'bookmark-check-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> bookmarkDash [
 	self setImageTagUrl:'bookmark-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkDashFill [
+	self setImageTagUrl:'bookmark-dash-fill'.
 	^imageTag
 ]
 
@@ -838,8 +1006,50 @@ SBSImageIcon >> bookmarkFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> bookmarkHeart [
+	self setImageTagUrl:'bookmark-heart'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkHeartFill [
+	self setImageTagUrl:'bookmark-heart-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> bookmarkPlus [
 	self setImageTagUrl:'bookmark-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkPlusFill [
+	self setImageTagUrl:'bookmark-plus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkStar [
+	self setImageTagUrl:'bookmark-star'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkStarFill [
+	self setImageTagUrl:'bookmark-star-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkX [
+	self setImageTagUrl:'bookmark-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> bookmarkXFill [
+	self setImageTagUrl:'bookmark-x-fill'.
 	^imageTag
 ]
 
@@ -862,6 +1072,18 @@ SBSImageIcon >> bookshelf [
 ]
 
 { #category : #icons }
+SBSImageIcon >> boombox [
+	self setImageTagUrl:'boombox'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> boomboxFill [
+	self setImageTagUrl:'boombox-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> bootstrap [
 	self setImageTagUrl:'bootstrap'.
 	^imageTag
@@ -880,8 +1102,68 @@ SBSImageIcon >> bootstrapReboot [
 ]
 
 { #category : #icons }
+SBSImageIcon >> border [
+	self setImageTagUrl:'border'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderAll [
+	self setImageTagUrl:'border-all'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderBottom [
+	self setImageTagUrl:'border-bottom'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderCenter [
+	self setImageTagUrl:'border-center'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderInner [
+	self setImageTagUrl:'border-inner'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderLeft [
+	self setImageTagUrl:'border-left'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderMiddle [
+	self setImageTagUrl:'border-middle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderOuter [
+	self setImageTagUrl:'border-outer'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderRight [
+	self setImageTagUrl:'border-right'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> borderStyle [
 	self setImageTagUrl:'border-style'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> borderTop [
+	self setImageTagUrl:'border-top'.
 	^imageTag
 ]
 
@@ -1012,6 +1294,12 @@ SBSImageIcon >> boxSeam [
 ]
 
 { #category : #icons }
+SBSImageIcon >> boxes [
+	self setImageTagUrl:'boxes'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> braces [
 	self setImageTagUrl:'braces'.
 	^imageTag
@@ -1098,6 +1386,12 @@ SBSImageIcon >> broadcastPin [
 { #category : #icons }
 SBSImageIcon >> brush [
 	self setImageTagUrl:'brush'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> brushFill [
+	self setImageTagUrl:'brush-fill'.
 	^imageTag
 ]
 
@@ -1272,6 +1566,18 @@ SBSImageIcon >> calendar2Week [
 { #category : #icons }
 SBSImageIcon >> calendar2WeekFill [
 	self setImageTagUrl:'calendar2-week-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> calendar2X [
+	self setImageTagUrl:'calendar2-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> calendar2XFill [
+	self setImageTagUrl:'calendar2-x-fill'.
 	^imageTag
 ]
 
@@ -1458,6 +1764,18 @@ SBSImageIcon >> calendarWeek [
 { #category : #icons }
 SBSImageIcon >> calendarWeekFill [
 	self setImageTagUrl:'calendar-week-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> calendarX [
+	self setImageTagUrl:'calendar-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> calendarXFill [
+	self setImageTagUrl:'calendar-x-fill'.
 	^imageTag
 ]
 
@@ -1684,8 +2002,20 @@ SBSImageIcon >> cartCheck [
 ]
 
 { #category : #icons }
+SBSImageIcon >> cartCheckFill [
+	self setImageTagUrl:'cart-check-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> cartDash [
 	self setImageTagUrl:'cart-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cartDashFill [
+	self setImageTagUrl:'cart-dash-fill'.
 	^imageTag
 ]
 
@@ -1702,8 +2032,32 @@ SBSImageIcon >> cartPlus [
 ]
 
 { #category : #icons }
+SBSImageIcon >> cartPlusFill [
+	self setImageTagUrl:'cart-plus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cartX [
+	self setImageTagUrl:'cart-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cartXFill [
+	self setImageTagUrl:'cart-x-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> cash [
 	self setImageTagUrl:'cash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cashCoin [
+	self setImageTagUrl:'cash-coin'.
 	^imageTag
 ]
 
@@ -1960,6 +2314,12 @@ SBSImageIcon >> checkCircleFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> checkLg [
+	self setImageTagUrl:'check-lg'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> checkSquare [
 	self setImageTagUrl:'check-square'.
 	^imageTag
@@ -2146,6 +2506,12 @@ SBSImageIcon >> clipboardPlus [
 ]
 
 { #category : #icons }
+SBSImageIcon >> clipboardX [
+	self setImageTagUrl:'clipboard-x'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> clock [
 	self setImageTagUrl:'clock'.
 	^imageTag
@@ -2218,8 +2584,104 @@ SBSImageIcon >> cloudDownloadFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> cloudDrizzle [
+	self setImageTagUrl:'cloud-drizzle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudDrizzleFill [
+	self setImageTagUrl:'cloud-drizzle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> cloudFill [
 	self setImageTagUrl:'cloud-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudFog [
+	self setImageTagUrl:'cloud-fog'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudFog2 [
+	self setImageTagUrl:'cloud-fog2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudFog2Fill [
+	self setImageTagUrl:'cloud-fog2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudFogFill [
+	self setImageTagUrl:'cloud-fog-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudHail [
+	self setImageTagUrl:'cloud-hail'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudHailFill [
+	self setImageTagUrl:'cloud-hail-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudHaze [
+	self setImageTagUrl:'cloud-haze'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudHaze2 [
+	self setImageTagUrl:'cloud-haze2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudHaze2Fill [
+	self setImageTagUrl:'cloud-haze2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudHazeFill [
+	self setImageTagUrl:'cloud-haze-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudLightning [
+	self setImageTagUrl:'cloud-lightning'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudLightningFill [
+	self setImageTagUrl:'cloud-lightning-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudLightningRain [
+	self setImageTagUrl:'cloud-lightning-rain'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudLightningRainFill [
+	self setImageTagUrl:'cloud-lightning-rain-fill'.
 	^imageTag
 ]
 
@@ -2236,6 +2698,18 @@ SBSImageIcon >> cloudMinusFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> cloudMoon [
+	self setImageTagUrl:'cloud-moon'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudMoonFill [
+	self setImageTagUrl:'cloud-moon-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> cloudPlus [
 	self setImageTagUrl:'cloud-plus'.
 	^imageTag
@@ -2244,6 +2718,30 @@ SBSImageIcon >> cloudPlus [
 { #category : #icons }
 SBSImageIcon >> cloudPlusFill [
 	self setImageTagUrl:'cloud-plus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudRain [
+	self setImageTagUrl:'cloud-rain'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudRainFill [
+	self setImageTagUrl:'cloud-rain-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudRainHeavy [
+	self setImageTagUrl:'cloud-rain-heavy'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudRainHeavyFill [
+	self setImageTagUrl:'cloud-rain-heavy-fill'.
 	^imageTag
 ]
 
@@ -2260,6 +2758,42 @@ SBSImageIcon >> cloudSlashFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> cloudSleet [
+	self setImageTagUrl:'cloud-sleet'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudSleetFill [
+	self setImageTagUrl:'cloud-sleet-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudSnow [
+	self setImageTagUrl:'cloud-snow'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudSnowFill [
+	self setImageTagUrl:'cloud-snow-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudSun [
+	self setImageTagUrl:'cloud-sun'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudSunFill [
+	self setImageTagUrl:'cloud-sun-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> cloudUpload [
 	self setImageTagUrl:'cloud-upload'.
 	^imageTag
@@ -2268,6 +2802,30 @@ SBSImageIcon >> cloudUpload [
 { #category : #icons }
 SBSImageIcon >> cloudUploadFill [
 	self setImageTagUrl:'cloud-upload-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> clouds [
+	self setImageTagUrl:'clouds'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudsFill [
+	self setImageTagUrl:'clouds-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudy [
+	self setImageTagUrl:'cloudy'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> cloudyFill [
+	self setImageTagUrl:'cloudy-fill'.
 	^imageTag
 ]
 
@@ -2286,6 +2844,12 @@ SBSImageIcon >> codeSlash [
 { #category : #icons }
 SBSImageIcon >> codeSquare [
 	self setImageTagUrl:'code-square'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> coin [
+	self setImageTagUrl:'coin'.
 	^imageTag
 ]
 
@@ -2334,6 +2898,12 @@ SBSImageIcon >> command [
 { #category : #icons }
 SBSImageIcon >> compass [
 	self setImageTagUrl:'compass'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> compassFill [
+	self setImageTagUrl:'compass-fill'.
 	^imageTag
 ]
 
@@ -2416,8 +2986,50 @@ SBSImageIcon >> cup [
 ]
 
 { #category : #icons }
+SBSImageIcon >> cupFill [
+	self setImageTagUrl:'cup-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> cupStraw [
 	self setImageTagUrl:'cup-straw'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> currencyBitcoin [
+	self setImageTagUrl:'currency-bitcoin'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> currencyDollar [
+	self setImageTagUrl:'currency-dollar'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> currencyEuro [
+	self setImageTagUrl:'currency-euro'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> currencyExchange [
+	self setImageTagUrl:'currency-exchange'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> currencyPound [
+	self setImageTagUrl:'currency-pound'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> currencyYen [
+	self setImageTagUrl:'currency-yen'.
 	^imageTag
 ]
 
@@ -2452,8 +3064,20 @@ SBSImageIcon >> dashCircle [
 ]
 
 { #category : #icons }
+SBSImageIcon >> dashCircleDotted [
+	self setImageTagUrl:'dash-circle-dotted'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> dashCircleFill [
 	self setImageTagUrl:'dash-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> dashLg [
+	self setImageTagUrl:'dash-lg'.
 	^imageTag
 ]
 
@@ -2464,8 +3088,38 @@ SBSImageIcon >> dashSquare [
 ]
 
 { #category : #icons }
+SBSImageIcon >> dashSquareDotted [
+	self setImageTagUrl:'dash-square-dotted'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> dashSquareFill [
 	self setImageTagUrl:'dash-square-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> deviceHdd [
+	self setImageTagUrl:'device-hdd'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> deviceHddFill [
+	self setImageTagUrl:'device-hdd-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> deviceSsd [
+	self setImageTagUrl:'device-ssd'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> deviceSsdFill [
+	self setImageTagUrl:'device-ssd-fill'.
 	^imageTag
 ]
 
@@ -2584,6 +3238,24 @@ SBSImageIcon >> dice6Fill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> disc [
+	self setImageTagUrl:'disc'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> discFill [
+	self setImageTagUrl:'disc-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> discord [
+	self setImageTagUrl:'discord'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> display [
 	self setImageTagUrl:'display'.
 	^imageTag
@@ -2592,6 +3264,18 @@ SBSImageIcon >> display [
 { #category : #icons }
 SBSImageIcon >> displayFill [
 	self setImageTagUrl:'display-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> displayport [
+	self setImageTagUrl:'displayport'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> displayportFill [
+	self setImageTagUrl:'displayport-fill'.
 	^imageTag
 ]
 
@@ -2650,6 +3334,24 @@ SBSImageIcon >> download [
 ]
 
 { #category : #icons }
+SBSImageIcon >> dpad [
+	self setImageTagUrl:'dpad'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> dpadFill [
+	self setImageTagUrl:'dpad-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> dribbble [
+	self setImageTagUrl:'dribbble'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> droplet [
 	self setImageTagUrl:'droplet'.
 	^imageTag
@@ -2668,6 +3370,18 @@ SBSImageIcon >> dropletHalf [
 ]
 
 { #category : #icons }
+SBSImageIcon >> ear [
+	self setImageTagUrl:'ear'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> earFill [
+	self setImageTagUrl:'ear-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> earbuds [
 	self setImageTagUrl:'earbuds'.
 	^imageTag
@@ -2676,6 +3390,30 @@ SBSImageIcon >> earbuds [
 { #category : #icons }
 SBSImageIcon >> easel [
 	self setImageTagUrl:'easel'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> easel2 [
+	self setImageTagUrl:'easel2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> easel2Fill [
+	self setImageTagUrl:'easel2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> easel3 [
+	self setImageTagUrl:'easel3'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> easel3Fill [
+	self setImageTagUrl:'easel3-fill'.
 	^imageTag
 ]
 
@@ -2722,8 +3460,20 @@ SBSImageIcon >> emojiAngry [
 ]
 
 { #category : #icons }
+SBSImageIcon >> emojiAngryFill [
+	self setImageTagUrl:'emoji-angry-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> emojiDizzy [
 	self setImageTagUrl:'emoji-dizzy'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiDizzyFill [
+	self setImageTagUrl:'emoji-dizzy-fill'.
 	^imageTag
 ]
 
@@ -2734,8 +3484,32 @@ SBSImageIcon >> emojiExpressionless [
 ]
 
 { #category : #icons }
+SBSImageIcon >> emojiExpressionlessFill [
+	self setImageTagUrl:'emoji-expressionless-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> emojiFrown [
 	self setImageTagUrl:'emoji-frown'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiFrownFill [
+	self setImageTagUrl:'emoji-frown-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiHeartEyes [
+	self setImageTagUrl:'emoji-heart-eyes'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiHeartEyesFill [
+	self setImageTagUrl:'emoji-heart-eyes-fill'.
 	^imageTag
 ]
 
@@ -2746,8 +3520,20 @@ SBSImageIcon >> emojiLaughing [
 ]
 
 { #category : #icons }
+SBSImageIcon >> emojiLaughingFill [
+	self setImageTagUrl:'emoji-laughing-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> emojiNeutral [
 	self setImageTagUrl:'emoji-neutral'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiNeutralFill [
+	self setImageTagUrl:'emoji-neutral-fill'.
 	^imageTag
 ]
 
@@ -2758,8 +3544,20 @@ SBSImageIcon >> emojiSmile [
 ]
 
 { #category : #icons }
+SBSImageIcon >> emojiSmileFill [
+	self setImageTagUrl:'emoji-smile-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> emojiSmileUpsideDown [
 	self setImageTagUrl:'emoji-smile-upside-down'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiSmileUpsideDownFill [
+	self setImageTagUrl:'emoji-smile-upside-down-fill'.
 	^imageTag
 ]
 
@@ -2770,8 +3568,62 @@ SBSImageIcon >> emojiSunglasses [
 ]
 
 { #category : #icons }
+SBSImageIcon >> emojiSunglassesFill [
+	self setImageTagUrl:'emoji-sunglasses-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiWink [
+	self setImageTagUrl:'emoji-wink'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> emojiWinkFill [
+	self setImageTagUrl:'emoji-wink-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> envelope [
 	self setImageTagUrl:'envelope'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeCheck [
+	self setImageTagUrl:'envelope-check'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeCheckFill [
+	self setImageTagUrl:'envelope-check-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeDash [
+	self setImageTagUrl:'envelope-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeDashFill [
+	self setImageTagUrl:'envelope-dash-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeExclamation [
+	self setImageTagUrl:'envelope-exclamation'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeExclamationFill [
+	self setImageTagUrl:'envelope-exclamation-fill'.
 	^imageTag
 ]
 
@@ -2790,6 +3642,60 @@ SBSImageIcon >> envelopeOpen [
 { #category : #icons }
 SBSImageIcon >> envelopeOpenFill [
 	self setImageTagUrl:'envelope-open-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopePlus [
+	self setImageTagUrl:'envelope-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopePlusFill [
+	self setImageTagUrl:'envelope-plus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeSlash [
+	self setImageTagUrl:'envelope-slash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeSlashFill [
+	self setImageTagUrl:'envelope-slash-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeX [
+	self setImageTagUrl:'envelope-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> envelopeXFill [
+	self setImageTagUrl:'envelope-x-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> eraser [
+	self setImageTagUrl:'eraser'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> eraserFill [
+	self setImageTagUrl:'eraser-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ethernet [
+	self setImageTagUrl:'ethernet'.
 	^imageTag
 ]
 
@@ -2820,6 +3726,12 @@ SBSImageIcon >> exclamationDiamond [
 { #category : #icons }
 SBSImageIcon >> exclamationDiamondFill [
 	self setImageTagUrl:'exclamation-diamond-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> exclamationLg [
+	self setImageTagUrl:'exclamation-lg'.
 	^imageTag
 ]
 
@@ -2866,6 +3778,18 @@ SBSImageIcon >> exclude [
 ]
 
 { #category : #icons }
+SBSImageIcon >> explicit [
+	self setImageTagUrl:'explicit'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> explicitFill [
+	self setImageTagUrl:'explicit-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> eye [
 	self setImageTagUrl:'eye'.
 	^imageTag
@@ -2890,8 +3814,26 @@ SBSImageIcon >> eyeSlashFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> eyedropper [
+	self setImageTagUrl:'eyedropper'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> eyeglasses [
 	self setImageTagUrl:'eyeglasses'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> facebook [
+	self setImageTagUrl:'facebook'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fan [
+	self setImageTagUrl:'fan'.
 	^imageTag
 ]
 
@@ -2922,6 +3864,18 @@ SBSImageIcon >> fileArrowUp [
 { #category : #icons }
 SBSImageIcon >> fileArrowUpFill [
 	self setImageTagUrl:'file-arrow-up-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileBarGraph [
+	self setImageTagUrl:'file-bar-graph'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileBarGraphFill [
+	self setImageTagUrl:'file-bar-graph-fill'.
 	^imageTag
 ]
 
@@ -2998,6 +3952,12 @@ SBSImageIcon >> fileEarmarkArrowDown [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileEarmarkArrowDownFill [
+	self setImageTagUrl:'file-earmark-arrow-down-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileEarmarkArrowUp [
 	self setImageTagUrl:'file-earmark-arrow-up'.
 	^imageTag
@@ -3006,6 +3966,18 @@ SBSImageIcon >> fileEarmarkArrowUp [
 { #category : #icons }
 SBSImageIcon >> fileEarmarkArrowUpFill [
 	self setImageTagUrl:'file-earmark-arrow-up-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkBarGraph [
+	self setImageTagUrl:'file-earmark-bar-graph'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkBarGraphFill [
+	self setImageTagUrl:'file-earmark-bar-graph-fill'.
 	^imageTag
 ]
 
@@ -3070,8 +4042,80 @@ SBSImageIcon >> fileEarmarkDiffFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileEarmarkEasel [
+	self setImageTagUrl:'file-earmark-easel'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkEaselFill [
+	self setImageTagUrl:'file-earmark-easel-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkExcel [
+	self setImageTagUrl:'file-earmark-excel'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkExcelFill [
+	self setImageTagUrl:'file-earmark-excel-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileEarmarkFill [
 	self setImageTagUrl:'file-earmark-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkFont [
+	self setImageTagUrl:'file-earmark-font'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkFontFill [
+	self setImageTagUrl:'file-earmark-font-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkImage [
+	self setImageTagUrl:'file-earmark-image'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkImageFill [
+	self setImageTagUrl:'file-earmark-image-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkLock [
+	self setImageTagUrl:'file-earmark-lock'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkLock2 [
+	self setImageTagUrl:'file-earmark-lock2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkLock2Fill [
+	self setImageTagUrl:'file-earmark-lock2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkLockFill [
+	self setImageTagUrl:'file-earmark-lock-fill'.
 	^imageTag
 ]
 
@@ -3100,6 +4144,54 @@ SBSImageIcon >> fileEarmarkMinusFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileEarmarkMusic [
+	self setImageTagUrl:'file-earmark-music'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkMusicFill [
+	self setImageTagUrl:'file-earmark-music-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPdf [
+	self setImageTagUrl:'file-earmark-pdf'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPdfFill [
+	self setImageTagUrl:'file-earmark-pdf-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPerson [
+	self setImageTagUrl:'file-earmark-person'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPersonFill [
+	self setImageTagUrl:'file-earmark-person-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPlay [
+	self setImageTagUrl:'file-earmark-play'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPlayFill [
+	self setImageTagUrl:'file-earmark-play-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileEarmarkPlus [
 	self setImageTagUrl:'file-earmark-plus'.
 	^imageTag
@@ -3112,6 +4204,42 @@ SBSImageIcon >> fileEarmarkPlusFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileEarmarkPost [
+	self setImageTagUrl:'file-earmark-post'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPostFill [
+	self setImageTagUrl:'file-earmark-post-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPpt [
+	self setImageTagUrl:'file-earmark-ppt'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkPptFill [
+	self setImageTagUrl:'file-earmark-ppt-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkRichtext [
+	self setImageTagUrl:'file-earmark-richtext'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkRichtextFill [
+	self setImageTagUrl:'file-earmark-richtext-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileEarmarkRuled [
 	self setImageTagUrl:'file-earmark-ruled'.
 	^imageTag
@@ -3120,6 +4248,18 @@ SBSImageIcon >> fileEarmarkRuled [
 { #category : #icons }
 SBSImageIcon >> fileEarmarkRuledFill [
 	self setImageTagUrl:'file-earmark-ruled-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkSlides [
+	self setImageTagUrl:'file-earmark-slides'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkSlidesFill [
+	self setImageTagUrl:'file-earmark-slides-fill'.
 	^imageTag
 ]
 
@@ -3148,6 +4288,30 @@ SBSImageIcon >> fileEarmarkTextFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileEarmarkWord [
+	self setImageTagUrl:'file-earmark-word'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkWordFill [
+	self setImageTagUrl:'file-earmark-word-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkX [
+	self setImageTagUrl:'file-earmark-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEarmarkXFill [
+	self setImageTagUrl:'file-earmark-x-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileEarmarkZip [
 	self setImageTagUrl:'file-earmark-zip'.
 	^imageTag
@@ -3160,8 +4324,80 @@ SBSImageIcon >> fileEarmarkZipFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileEasel [
+	self setImageTagUrl:'file-easel'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileEaselFill [
+	self setImageTagUrl:'file-easel-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileExcel [
+	self setImageTagUrl:'file-excel'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileExcelFill [
+	self setImageTagUrl:'file-excel-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileFill [
 	self setImageTagUrl:'file-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileFont [
+	self setImageTagUrl:'file-font'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileFontFill [
+	self setImageTagUrl:'file-font-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileImage [
+	self setImageTagUrl:'file-image'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileImageFill [
+	self setImageTagUrl:'file-image-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileLock [
+	self setImageTagUrl:'file-lock'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileLock2 [
+	self setImageTagUrl:'file-lock2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileLock2Fill [
+	self setImageTagUrl:'file-lock2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileLockFill [
+	self setImageTagUrl:'file-lock-fill'.
 	^imageTag
 ]
 
@@ -3202,6 +4438,18 @@ SBSImageIcon >> fileMusicFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> filePdf [
+	self setImageTagUrl:'file-pdf'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> filePdfFill [
+	self setImageTagUrl:'file-pdf-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> filePerson [
 	self setImageTagUrl:'file-person'.
 	^imageTag
@@ -3210,6 +4458,18 @@ SBSImageIcon >> filePerson [
 { #category : #icons }
 SBSImageIcon >> filePersonFill [
 	self setImageTagUrl:'file-person-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> filePlay [
+	self setImageTagUrl:'file-play'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> filePlayFill [
+	self setImageTagUrl:'file-play-fill'.
 	^imageTag
 ]
 
@@ -3238,6 +4498,18 @@ SBSImageIcon >> filePostFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> filePpt [
+	self setImageTagUrl:'file-ppt'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> filePptFill [
+	self setImageTagUrl:'file-ppt-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileRichtext [
 	self setImageTagUrl:'file-richtext'.
 	^imageTag
@@ -3262,6 +4534,18 @@ SBSImageIcon >> fileRuledFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> fileSlides [
+	self setImageTagUrl:'file-slides'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileSlidesFill [
+	self setImageTagUrl:'file-slides-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fileSpreadsheet [
 	self setImageTagUrl:'file-spreadsheet'.
 	^imageTag
@@ -3282,6 +4566,30 @@ SBSImageIcon >> fileText [
 { #category : #icons }
 SBSImageIcon >> fileTextFill [
 	self setImageTagUrl:'file-text-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileWord [
+	self setImageTagUrl:'file-word'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileWordFill [
+	self setImageTagUrl:'file-word-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileX [
+	self setImageTagUrl:'file-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fileXFill [
+	self setImageTagUrl:'file-x-fill'.
 	^imageTag
 ]
 
@@ -3354,6 +4662,12 @@ SBSImageIcon >> filterSquare [
 { #category : #icons }
 SBSImageIcon >> filterSquareFill [
 	self setImageTagUrl:'filter-square-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> fingerprint [
+	self setImageTagUrl:'fingerprint'.
 	^imageTag
 ]
 
@@ -3442,6 +4756,12 @@ SBSImageIcon >> folderSymlinkFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> folderX [
+	self setImageTagUrl:'folder-x'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> fonts [
 	self setImageTagUrl:'fonts'.
 	^imageTag
@@ -3520,6 +4840,30 @@ SBSImageIcon >> gem [
 ]
 
 { #category : #icons }
+SBSImageIcon >> genderAmbiguous [
+	self setImageTagUrl:'gender-ambiguous'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> genderFemale [
+	self setImageTagUrl:'gender-female'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> genderMale [
+	self setImageTagUrl:'gender-male'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> genderTrans [
+	self setImageTagUrl:'gender-trans'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> geo [
 	self setImageTagUrl:'geo'.
 	^imageTag
@@ -3528,6 +4872,18 @@ SBSImageIcon >> geo [
 { #category : #icons }
 SBSImageIcon >> geoAlt [
 	self setImageTagUrl:'geo-alt'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> geoAltFill [
+	self setImageTagUrl:'geo-alt-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> geoFill [
+	self setImageTagUrl:'geo-fill'.
 	^imageTag
 ]
 
@@ -3544,6 +4900,18 @@ SBSImageIcon >> giftFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> git [
+	self setImageTagUrl:'git'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> github [
+	self setImageTagUrl:'github'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> globe [
 	self setImageTagUrl:'globe'.
 	^imageTag
@@ -3556,14 +4924,38 @@ SBSImageIcon >> globe2 [
 ]
 
 { #category : #icons }
+SBSImageIcon >> google [
+	self setImageTagUrl:'google'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> gpuCard [
+	self setImageTagUrl:'gpu-card'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> graphDown [
 	self setImageTagUrl:'graph-down'.
 	^imageTag
 ]
 
 { #category : #icons }
+SBSImageIcon >> graphDownArrow [
+	self setImageTagUrl:'graph-down-arrow'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> graphUp [
 	self setImageTagUrl:'graph-up'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> graphUpArrow [
+	self setImageTagUrl:'graph-up-arrow'.
 	^imageTag
 ]
 
@@ -3652,8 +5044,20 @@ SBSImageIcon >> handIndex [
 ]
 
 { #category : #icons }
+SBSImageIcon >> handIndexFill [
+	self setImageTagUrl:'hand-index-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> handIndexThumb [
 	self setImageTagUrl:'hand-index-thumb'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> handIndexThumbFill [
+	self setImageTagUrl:'hand-index-thumb-fill'.
 	^imageTag
 ]
 
@@ -3664,8 +5068,20 @@ SBSImageIcon >> handThumbsDown [
 ]
 
 { #category : #icons }
+SBSImageIcon >> handThumbsDownFill [
+	self setImageTagUrl:'hand-thumbs-down-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> handThumbsUp [
 	self setImageTagUrl:'hand-thumbs-up'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> handThumbsUpFill [
+	self setImageTagUrl:'hand-thumbs-up-fill'.
 	^imageTag
 ]
 
@@ -3678,6 +5094,12 @@ SBSImageIcon >> handbag [
 { #category : #icons }
 SBSImageIcon >> handbagFill [
 	self setImageTagUrl:'handbag-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> hashIcon [
+	self setImageTagUrl:'hash-icon'.
 	^imageTag
 ]
 
@@ -3730,6 +5152,18 @@ SBSImageIcon >> hddStackFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> hdmi [
+	self setImageTagUrl:'hdmi'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> hdmiFill [
+	self setImageTagUrl:'hdmi-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> headphones [
 	self setImageTagUrl:'headphones'.
 	^imageTag
@@ -3738,6 +5172,12 @@ SBSImageIcon >> headphones [
 { #category : #icons }
 SBSImageIcon >> headset [
 	self setImageTagUrl:'headset'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> headsetVr [
+	self setImageTagUrl:'headset-vr'.
 	^imageTag
 ]
 
@@ -3850,6 +5290,18 @@ SBSImageIcon >> hr [
 ]
 
 { #category : #icons }
+SBSImageIcon >> hurricane [
+	self setImageTagUrl:'hurricane'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> hypnotize [
+	self setImageTagUrl:'hypnotize'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> image [
 	self setImageTagUrl:'image'.
 	^imageTag
@@ -3898,6 +5350,12 @@ SBSImageIcon >> inboxesFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> infinity [
+	self setImageTagUrl:'infinity'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> info [
 	self setImageTagUrl:'info'.
 	^imageTag
@@ -3912,6 +5370,12 @@ SBSImageIcon >> infoCircle [
 { #category : #icons }
 SBSImageIcon >> infoCircleFill [
 	self setImageTagUrl:'info-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> infoLg [
+	self setImageTagUrl:'info-lg'.
 	^imageTag
 ]
 
@@ -3936,6 +5400,12 @@ SBSImageIcon >> inputCursor [
 { #category : #icons }
 SBSImageIcon >> inputCursorText [
 	self setImageTagUrl:'input-cursor-text'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> instagram [
+	self setImageTagUrl:'instagram'.
 	^imageTag
 ]
 
@@ -3966,6 +5436,18 @@ SBSImageIcon >> journalArrowDown [
 { #category : #icons }
 SBSImageIcon >> journalArrowUp [
 	self setImageTagUrl:'journal-arrow-up'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> journalBookmark [
+	self setImageTagUrl:'journal-bookmark'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> journalBookmarkFill [
+	self setImageTagUrl:'journal-bookmark-fill'.
 	^imageTag
 ]
 
@@ -4008,6 +5490,12 @@ SBSImageIcon >> journalRichtext [
 { #category : #icons }
 SBSImageIcon >> journalText [
 	self setImageTagUrl:'journal-text'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> journalX [
+	self setImageTagUrl:'journal-x'.
 	^imageTag
 ]
 
@@ -4108,6 +5596,18 @@ SBSImageIcon >> laptopFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> layerBackward [
+	self setImageTagUrl:'layer-backward'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> layerForward [
+	self setImageTagUrl:'layer-forward'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> layers [
 	self setImageTagUrl:'layers'.
 	^imageTag
@@ -4198,14 +5698,56 @@ SBSImageIcon >> lifePreserver [
 ]
 
 { #category : #icons }
+SBSImageIcon >> lightbulb [
+	self setImageTagUrl:'lightbulb'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> lightbulbFill [
+	self setImageTagUrl:'lightbulb-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> lightbulbOff [
+	self setImageTagUrl:'lightbulb-off'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> lightbulbOffFill [
+	self setImageTagUrl:'lightbulb-off-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> lightning [
 	self setImageTagUrl:'lightning'.
 	^imageTag
 ]
 
 { #category : #icons }
+SBSImageIcon >> lightningCharge [
+	self setImageTagUrl:'lightning-charge'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> lightningChargeFill [
+	self setImageTagUrl:'lightning-charge-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> lightningFill [
 	self setImageTagUrl:'lightning-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> line [
+	self setImageTagUrl:'line'.
 	^imageTag
 ]
 
@@ -4222,6 +5764,12 @@ SBSImageIcon >> link45deg [
 ]
 
 { #category : #icons }
+SBSImageIcon >> linkedin [
+	self setImageTagUrl:'linkedin'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> list [
 	self setImageTagUrl:'list'.
 	^imageTag
@@ -4230,6 +5778,18 @@ SBSImageIcon >> list [
 { #category : #icons }
 SBSImageIcon >> listCheck [
 	self setImageTagUrl:'list-check'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> listColumns [
+	self setImageTagUrl:'list-columns'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> listColumnsReverse [
+	self setImageTagUrl:'list-columns-reverse'.
 	^imageTag
 ]
 
@@ -4276,6 +5836,12 @@ SBSImageIcon >> lockFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> magic [
+	self setImageTagUrl:'magic'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> mailbox [
 	self setImageTagUrl:'mailbox'.
 	^imageTag
@@ -4294,6 +5860,12 @@ SBSImageIcon >> map [
 ]
 
 { #category : #icons }
+SBSImageIcon >> mapFill [
+	self setImageTagUrl:'map-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> markdown [
 	self setImageTagUrl:'markdown'.
 	^imageTag
@@ -4302,6 +5874,42 @@ SBSImageIcon >> markdown [
 { #category : #icons }
 SBSImageIcon >> markdownFill [
 	self setImageTagUrl:'markdown-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> mask [
+	self setImageTagUrl:'mask'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> mastodon [
+	self setImageTagUrl:'mastodon'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> medium [
+	self setImageTagUrl:'medium'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> megaphone [
+	self setImageTagUrl:'megaphone'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> megaphoneFill [
+	self setImageTagUrl:'megaphone-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> memory [
+	self setImageTagUrl:'memory'.
 	^imageTag
 ]
 
@@ -4354,6 +5962,18 @@ SBSImageIcon >> menuUp [
 ]
 
 { #category : #icons }
+SBSImageIcon >> messenger [
+	self setImageTagUrl:'messenger'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> meta [
+	self setImageTagUrl:'meta'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> mic [
 	self setImageTagUrl:'mic'.
 	^imageTag
@@ -4378,6 +5998,12 @@ SBSImageIcon >> micMuteFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> microsoft [
+	self setImageTagUrl:'microsoft'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> minecart [
 	self setImageTagUrl:'minecart'.
 	^imageTag
@@ -4390,8 +6016,68 @@ SBSImageIcon >> minecartLoaded [
 ]
 
 { #category : #icons }
+SBSImageIcon >> modem [
+	self setImageTagUrl:'modem'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> modemFill [
+	self setImageTagUrl:'modem-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> moisture [
+	self setImageTagUrl:'moisture'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> moon [
 	self setImageTagUrl:'moon'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> moonFill [
+	self setImageTagUrl:'moon-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> moonStars [
+	self setImageTagUrl:'moon-stars'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> moonStarsFill [
+	self setImageTagUrl:'moon-stars-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> mortarboard [
+	self setImageTagUrl:'mortarboard'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> mortarboardFill [
+	self setImageTagUrl:'mortarboard-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> motherboard [
+	self setImageTagUrl:'motherboard'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> motherboardFill [
+	self setImageTagUrl:'motherboard-fill'.
 	^imageTag
 ]
 
@@ -4408,8 +6094,26 @@ SBSImageIcon >> mouse2 [
 ]
 
 { #category : #icons }
+SBSImageIcon >> mouse2Fill [
+	self setImageTagUrl:'mouse2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> mouse3 [
 	self setImageTagUrl:'mouse3'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> mouse3Fill [
+	self setImageTagUrl:'mouse3-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> mouseFill [
+	self setImageTagUrl:'mouse-fill'.
 	^imageTag
 ]
 
@@ -4446,6 +6150,12 @@ SBSImageIcon >> musicPlayerFill [
 { #category : #icons }
 SBSImageIcon >> newspaper [
 	self setImageTagUrl:'newspaper'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> nintendoSwitch [
+	self setImageTagUrl:'nintendo-switch'.
 	^imageTag
 ]
 
@@ -4504,6 +6214,24 @@ SBSImageIcon >> octagonHalf [
 ]
 
 { #category : #icons }
+SBSImageIcon >> oneTwoThree [
+	self setImageTagUrl:'one-two-three'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> opticalAudio [
+	self setImageTagUrl:'optical-audio'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> opticalAudioFill [
+	self setImageTagUrl:'optical-audio-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> option [
 	self setImageTagUrl:'option'.
 	^imageTag
@@ -4512,6 +6240,30 @@ SBSImageIcon >> option [
 { #category : #icons }
 SBSImageIcon >> outlet [
 	self setImageTagUrl:'outlet'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> paintBucket [
+	self setImageTagUrl:'paint-bucket'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> palette [
+	self setImageTagUrl:'palette'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> palette2 [
+	self setImageTagUrl:'palette2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> paletteFill [
+	self setImageTagUrl:'palette-fill'.
 	^imageTag
 ]
 
@@ -4534,6 +6286,12 @@ SBSImageIcon >> patchCheck [
 ]
 
 { #category : #icons }
+SBSImageIcon >> patchCheckFill [
+	self setImageTagUrl:'patch-check-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> patchCheckFll [
 	self setImageTagUrl:'patch-check-fll'.
 	^imageTag
@@ -4542,6 +6300,12 @@ SBSImageIcon >> patchCheckFll [
 { #category : #icons }
 SBSImageIcon >> patchExclamation [
 	self setImageTagUrl:'patch-exclamation'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> patchExclamationFill [
+	self setImageTagUrl:'patch-exclamation-fill'.
 	^imageTag
 ]
 
@@ -4558,6 +6322,12 @@ SBSImageIcon >> patchMinus [
 ]
 
 { #category : #icons }
+SBSImageIcon >> patchMinusFill [
+	self setImageTagUrl:'patch-minus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> patchMinusFll [
 	self setImageTagUrl:'patch-minus-fll'.
 	^imageTag
@@ -4566,6 +6336,12 @@ SBSImageIcon >> patchMinusFll [
 { #category : #icons }
 SBSImageIcon >> patchPlus [
 	self setImageTagUrl:'patch-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> patchPlusFill [
+	self setImageTagUrl:'patch-plus-fill'.
 	^imageTag
 ]
 
@@ -4582,6 +6358,12 @@ SBSImageIcon >> patchQuestion [
 ]
 
 { #category : #icons }
+SBSImageIcon >> patchQuestionFill [
+	self setImageTagUrl:'patch-question-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> patchQuestionFll [
 	self setImageTagUrl:'patch-question-fll'.
 	^imageTag
@@ -4594,8 +6376,68 @@ SBSImageIcon >> pause [
 ]
 
 { #category : #icons }
+SBSImageIcon >> pauseBtn [
+	self setImageTagUrl:'pause-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pauseBtnFill [
+	self setImageTagUrl:'pause-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pauseCircle [
+	self setImageTagUrl:'pause-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pauseCircleFill [
+	self setImageTagUrl:'pause-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> pauseFill [
 	self setImageTagUrl:'pause-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> paypal [
+	self setImageTagUrl:'paypal'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pc [
+	self setImageTagUrl:'pc'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pcDisplay [
+	self setImageTagUrl:'pc-display'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pcDisplayHorizontal [
+	self setImageTagUrl:'pc-display-horizontal'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pcHorizontal [
+	self setImageTagUrl:'pc-horizontal'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pciCard [
+	self setImageTagUrl:'pci-card'.
 	^imageTag
 ]
 
@@ -4618,8 +6460,20 @@ SBSImageIcon >> pen [
 ]
 
 { #category : #icons }
+SBSImageIcon >> penFill [
+	self setImageTagUrl:'pen-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> pencil [
 	self setImageTagUrl:'pencil'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pencilFill [
+	self setImageTagUrl:'pencil-fill'.
 	^imageTag
 ]
 
@@ -4744,8 +6598,50 @@ SBSImageIcon >> personPlusFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> personRolodex [
+	self setImageTagUrl:'person-rolodex'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> personSquare [
 	self setImageTagUrl:'person-square'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> personVideo [
+	self setImageTagUrl:'person-video'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> personVideo2 [
+	self setImageTagUrl:'person-video2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> personVideo3 [
+	self setImageTagUrl:'person-video3'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> personWorkspace [
+	self setImageTagUrl:'person-workspace'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> personX [
+	self setImageTagUrl:'person-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> personXFill [
+	self setImageTagUrl:'person-x-fill'.
 	^imageTag
 ]
 
@@ -4774,6 +6670,18 @@ SBSImageIcon >> phoneLandscapeFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> phoneVibrate [
+	self setImageTagUrl:'phone-vibrate'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> phoneVibrateFill [
+	self setImageTagUrl:'phone-vibrate-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> pieChart [
 	self setImageTagUrl:'pie-chart'.
 	^imageTag
@@ -4782,6 +6690,60 @@ SBSImageIcon >> pieChart [
 { #category : #icons }
 SBSImageIcon >> pieChartFill [
 	self setImageTagUrl:'pie-chart-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> piggyBank [
+	self setImageTagUrl:'piggy-bank'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> piggyBankFill [
+	self setImageTagUrl:'piggy-bank-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pin [
+	self setImageTagUrl:'pin'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pinAngle [
+	self setImageTagUrl:'pin-angle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pinAngleFill [
+	self setImageTagUrl:'pin-angle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pinFill [
+	self setImageTagUrl:'pin-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pinMap [
+	self setImageTagUrl:'pin-map'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pinMapFill [
+	self setImageTagUrl:'pin-map-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> pinterest [
+	self setImageTagUrl:'pinterest'.
 	^imageTag
 ]
 
@@ -4804,14 +6766,50 @@ SBSImageIcon >> play [
 ]
 
 { #category : #icons }
+SBSImageIcon >> playBtn [
+	self setImageTagUrl:'play-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> playBtnFill [
+	self setImageTagUrl:'play-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> playCircle [
+	self setImageTagUrl:'play-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> playCircleFill [
+	self setImageTagUrl:'play-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> playFill [
 	self setImageTagUrl:'play-fill'.
 	^imageTag
 ]
 
 { #category : #icons }
+SBSImageIcon >> playstation [
+	self setImageTagUrl:'playstation'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> plug [
 	self setImageTagUrl:'plug'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> plugFill [
+	self setImageTagUrl:'plug-fill'.
 	^imageTag
 ]
 
@@ -4828,14 +6826,38 @@ SBSImageIcon >> plusCircle [
 ]
 
 { #category : #icons }
+SBSImageIcon >> plusCircleDotted [
+	self setImageTagUrl:'plus-circle-dotted'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> plusCircleFill [
 	self setImageTagUrl:'plus-circle-fill'.
 	^imageTag
 ]
 
 { #category : #icons }
+SBSImageIcon >> plusLg [
+	self setImageTagUrl:'plus-lg'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> plusSlashMinus [
+	self setImageTagUrl:'plus-slash-minus'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> plusSquare [
 	self setImageTagUrl:'plus-square'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> plusSquareDotted [
+	self setImageTagUrl:'plus-square-dotted'.
 	^imageTag
 ]
 
@@ -4864,6 +6886,18 @@ SBSImageIcon >> printerFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> projector [
+	self setImageTagUrl:'projector'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> projectorFill [
+	self setImageTagUrl:'projector-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> puzzle [
 	self setImageTagUrl:'puzzle'.
 	^imageTag
@@ -4872,6 +6906,18 @@ SBSImageIcon >> puzzle [
 { #category : #icons }
 SBSImageIcon >> puzzleFill [
 	self setImageTagUrl:'puzzle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> qrCode [
+	self setImageTagUrl:'qr-code'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> qrCodeScan [
+	self setImageTagUrl:'qr-code-scan'.
 	^imageTag
 ]
 
@@ -4906,6 +6952,12 @@ SBSImageIcon >> questionDiamondFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> questionLg [
+	self setImageTagUrl:'question-lg'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> questionOctagon [
 	self setImageTagUrl:'question-octagon'.
 	^imageTag
@@ -4926,6 +6978,30 @@ SBSImageIcon >> questionSquare [
 { #category : #icons }
 SBSImageIcon >> questionSquareFill [
 	self setImageTagUrl:'question-square-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> quora [
+	self setImageTagUrl:'quora'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> quote [
+	self setImageTagUrl:'quote'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> radioactive [
+	self setImageTagUrl:'radioactive'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> rainbow [
+	self setImageTagUrl:'rainbow'.
 	^imageTag
 ]
 
@@ -4972,6 +7048,66 @@ SBSImageIcon >> reception4 [
 ]
 
 { #category : #icons }
+SBSImageIcon >> record [
+	self setImageTagUrl:'record'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> record2 [
+	self setImageTagUrl:'record2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> record2Fill [
+	self setImageTagUrl:'record2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> recordBtn [
+	self setImageTagUrl:'record-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> recordBtnFill [
+	self setImageTagUrl:'record-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> recordCircle [
+	self setImageTagUrl:'record-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> recordCircleFill [
+	self setImageTagUrl:'record-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> recordFill [
+	self setImageTagUrl:'record-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> recycle [
+	self setImageTagUrl:'recycle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> reddit [
+	self setImageTagUrl:'reddit'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> reply [
 	self setImageTagUrl:'reply'.
 	^imageTag
@@ -4996,6 +7132,24 @@ SBSImageIcon >> replyFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> robot [
+	self setImageTagUrl:'robot'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> router [
+	self setImageTagUrl:'router'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> routerFill [
+	self setImageTagUrl:'router-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> rss [
 	self setImageTagUrl:'rss'.
 	^imageTag
@@ -5008,8 +7162,80 @@ SBSImageIcon >> rssFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> rulers [
+	self setImageTagUrl:'rulers'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> safe [
+	self setImageTagUrl:'safe'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> safe2 [
+	self setImageTagUrl:'safe2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> safe2Fill [
+	self setImageTagUrl:'safe2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> safeFill [
+	self setImageTagUrl:'safe-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> save [
+	self setImageTagUrl:'save'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> save2 [
+	self setImageTagUrl:'save2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> save2Fill [
+	self setImageTagUrl:'save2-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> saveFill [
+	self setImageTagUrl:'save-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> scissors [
+	self setImageTagUrl:'scissors'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> screwdriver [
 	self setImageTagUrl:'screwdriver'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sdCard [
+	self setImageTagUrl:'sd-card'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sdCardFill [
+	self setImageTagUrl:'sd-card-fill'.
 	^imageTag
 ]
 
@@ -5022,6 +7248,90 @@ SBSImageIcon >> search [
 { #category : #icons }
 SBSImageIcon >> segmentedNav [
 	self setImageTagUrl:'segmented-nav'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> send [
+	self setImageTagUrl:'send'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendCheck [
+	self setImageTagUrl:'send-check'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendCheckFill [
+	self setImageTagUrl:'send-check-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendDash [
+	self setImageTagUrl:'send-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendDashFill [
+	self setImageTagUrl:'send-dash-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendExclamation [
+	self setImageTagUrl:'send-exclamation'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendExclamationFill [
+	self setImageTagUrl:'send-exclamation-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendFill [
+	self setImageTagUrl:'send-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendPlus [
+	self setImageTagUrl:'send-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendPlusFill [
+	self setImageTagUrl:'send-plus-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendSlash [
+	self setImageTagUrl:'send-slash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendSlashFill [
+	self setImageTagUrl:'send-slash-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendX [
+	self setImageTagUrl:'send-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sendXFill [
+	self setImageTagUrl:'send-x-fill'.
 	^imageTag
 ]
 
@@ -5104,6 +7414,12 @@ SBSImageIcon >> shieldFillPlus [
 ]
 
 { #category : #icons }
+SBSImageIcon >> shieldFillX [
+	self setImageTagUrl:'shield-fill-x'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> shieldLock [
 	self setImageTagUrl:'shield-lock'.
 	^imageTag
@@ -5146,6 +7462,12 @@ SBSImageIcon >> shieldSlashFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> shieldX [
+	self setImageTagUrl:'shield-x'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> shift [
 	self setImageTagUrl:'shift'.
 	^imageTag
@@ -5172,6 +7494,12 @@ SBSImageIcon >> shopWindow [
 { #category : #icons }
 SBSImageIcon >> shuffle [
 	self setImageTagUrl:'shuffle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> signal [
+	self setImageTagUrl:'signal'.
 	^imageTag
 ]
 
@@ -5230,6 +7558,30 @@ SBSImageIcon >> skipBackward [
 ]
 
 { #category : #icons }
+SBSImageIcon >> skipBackwardBtn [
+	self setImageTagUrl:'skip-backward-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipBackwardBtnFill [
+	self setImageTagUrl:'skip-backward-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipBackwardCircle [
+	self setImageTagUrl:'skip-backward-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipBackwardCircleFill [
+	self setImageTagUrl:'skip-backward-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> skipBackwardFill [
 	self setImageTagUrl:'skip-backward-fill'.
 	^imageTag
@@ -5238,6 +7590,30 @@ SBSImageIcon >> skipBackwardFill [
 { #category : #icons }
 SBSImageIcon >> skipEnd [
 	self setImageTagUrl:'skip-end'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipEndBtn [
+	self setImageTagUrl:'skip-end-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipEndBtnFill [
+	self setImageTagUrl:'skip-end-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipEndCircle [
+	self setImageTagUrl:'skip-end-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipEndCircleFill [
+	self setImageTagUrl:'skip-end-circle-fill'.
 	^imageTag
 ]
 
@@ -5254,6 +7630,30 @@ SBSImageIcon >> skipForward [
 ]
 
 { #category : #icons }
+SBSImageIcon >> skipForwardBtn [
+	self setImageTagUrl:'skip-forward-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipForwardBtnFill [
+	self setImageTagUrl:'skip-forward-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipForwardCircle [
+	self setImageTagUrl:'skip-forward-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipForwardCircleFill [
+	self setImageTagUrl:'skip-forward-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> skipForwardFill [
 	self setImageTagUrl:'skip-forward-fill'.
 	^imageTag
@@ -5266,8 +7666,44 @@ SBSImageIcon >> skipStart [
 ]
 
 { #category : #icons }
+SBSImageIcon >> skipStartBtn [
+	self setImageTagUrl:'skip-start-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipStartBtnFill [
+	self setImageTagUrl:'skip-start-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipStartCircle [
+	self setImageTagUrl:'skip-start-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skipStartCircleFill [
+	self setImageTagUrl:'skip-start-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> skipStartFill [
 	self setImageTagUrl:'skip-start-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> skype [
+	self setImageTagUrl:'skype'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> slack [
+	self setImageTagUrl:'slack'.
 	^imageTag
 ]
 
@@ -5286,6 +7722,12 @@ SBSImageIcon >> slashCircle [
 { #category : #icons }
 SBSImageIcon >> slashCircleFill [
 	self setImageTagUrl:'slash-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> slashLg [
+	self setImageTagUrl:'slash-lg'.
 	^imageTag
 ]
 
@@ -5310,6 +7752,30 @@ SBSImageIcon >> sliders [
 { #category : #icons }
 SBSImageIcon >> smartwatch [
 	self setImageTagUrl:'smartwatch'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> snapchat [
+	self setImageTagUrl:'snapchat'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> snow [
+	self setImageTagUrl:'snow'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> snow2 [
+	self setImageTagUrl:'snow2'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> snow3 [
+	self setImageTagUrl:'snow3'.
 	^imageTag
 ]
 
@@ -5398,8 +7864,32 @@ SBSImageIcon >> speaker [
 ]
 
 { #category : #icons }
+SBSImageIcon >> speakerFill [
+	self setImageTagUrl:'speaker-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> speedometer [
+	self setImageTagUrl:'speedometer'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> speedometer2 [
+	self setImageTagUrl:'speedometer2'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> spellcheck [
 	self setImageTagUrl:'spellcheck'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> spotify [
+	self setImageTagUrl:'spotify'.
 	^imageTag
 ]
 
@@ -5422,6 +7912,18 @@ SBSImageIcon >> squareHalf [
 ]
 
 { #category : #icons }
+SBSImageIcon >> stack [
+	self setImageTagUrl:'stack'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> stackOverflow [
+	self setImageTagUrl:'stack-overflow'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> star [
 	self setImageTagUrl:'star'.
 	^imageTag
@@ -5436,6 +7938,18 @@ SBSImageIcon >> starFill [
 { #category : #icons }
 SBSImageIcon >> starHalf [
 	self setImageTagUrl:'star-half'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> stars [
+	self setImageTagUrl:'stars'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> steam [
+	self setImageTagUrl:'steam'.
 	^imageTag
 ]
 
@@ -5470,6 +7984,30 @@ SBSImageIcon >> stop [
 ]
 
 { #category : #icons }
+SBSImageIcon >> stopBtn [
+	self setImageTagUrl:'stop-btn'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> stopBtnFill [
+	self setImageTagUrl:'stop-btn-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> stopCircle [
+	self setImageTagUrl:'stop-circle'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> stopCircleFill [
+	self setImageTagUrl:'stop-circle-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> stopFill [
 	self setImageTagUrl:'stop-fill'.
 	^imageTag
@@ -5496,6 +8034,12 @@ SBSImageIcon >> stopwatch [
 { #category : #icons }
 SBSImageIcon >> stopwatchFill [
 	self setImageTagUrl:'stopwatch-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> strava [
+	self setImageTagUrl:'strava'.
 	^imageTag
 ]
 
@@ -5560,8 +8104,50 @@ SBSImageIcon >> sun [
 ]
 
 { #category : #icons }
+SBSImageIcon >> sunFill [
+	self setImageTagUrl:'sun-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> sunglasses [
 	self setImageTagUrl:'sunglasses'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sunrise [
+	self setImageTagUrl:'sunrise'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sunriseFill [
+	self setImageTagUrl:'sunrise-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sunset [
+	self setImageTagUrl:'sunset'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> sunsetFill [
+	self setImageTagUrl:'sunset-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> symmetryHorizontal [
+	self setImageTagUrl:'symmetry-horizontal'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> symmetryVertical [
+	self setImageTagUrl:'symmetry-vertical'.
 	^imageTag
 ]
 
@@ -5602,6 +8188,12 @@ SBSImageIcon >> tagFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> tagIcon [
+	self setImageTagUrl:'tag-icon'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> tags [
 	self setImageTagUrl:'tags'.
 	^imageTag
@@ -5610,6 +8202,12 @@ SBSImageIcon >> tags [
 { #category : #icons }
 SBSImageIcon >> tagsFill [
 	self setImageTagUrl:'tags-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> telegram [
+	self setImageTagUrl:'telegram'.
 	^imageTag
 ]
 
@@ -5704,8 +8302,32 @@ SBSImageIcon >> terminal [
 ]
 
 { #category : #icons }
+SBSImageIcon >> terminalDash [
+	self setImageTagUrl:'terminal-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> terminalFill [
 	self setImageTagUrl:'terminal-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> terminalPlus [
+	self setImageTagUrl:'terminal-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> terminalSplit [
+	self setImageTagUrl:'terminal-split'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> terminalX [
+	self setImageTagUrl:'terminal-x'.
 	^imageTag
 ]
 
@@ -5730,6 +8352,12 @@ SBSImageIcon >> textIndentRight [
 { #category : #icons }
 SBSImageIcon >> textLeft [
 	self setImageTagUrl:'text-left'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> textParagraph [
+	self setImageTagUrl:'text-paragraph'.
 	^imageTag
 ]
 
@@ -5770,6 +8398,30 @@ SBSImageIcon >> thermometerHalf [
 ]
 
 { #category : #icons }
+SBSImageIcon >> thermometerHigh [
+	self setImageTagUrl:'thermometer-high'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> thermometerLow [
+	self setImageTagUrl:'thermometer-low'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> thermometerSnow [
+	self setImageTagUrl:'thermometer-snow'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> thermometerSun [
+	self setImageTagUrl:'thermometer-sun'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> threeDots [
 	self setImageTagUrl:'three-dots'.
 	^imageTag
@@ -5778,6 +8430,60 @@ SBSImageIcon >> threeDots [
 { #category : #icons }
 SBSImageIcon >> threeDotsVertical [
 	self setImageTagUrl:'three-dots-vertical'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> thunderbolt [
+	self setImageTagUrl:'thunderbolt'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> thunderboltFill [
+	self setImageTagUrl:'thunderbolt-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ticket [
+	self setImageTagUrl:'ticket'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ticketDetailed [
+	self setImageTagUrl:'ticket-detailed'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ticketDetailedFill [
+	self setImageTagUrl:'ticket-detailed-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ticketFill [
+	self setImageTagUrl:'ticket-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ticketPerferated [
+	self setImageTagUrl:'ticket-perferated'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> ticketPerferatedFill [
+	self setImageTagUrl:'ticket-perferated-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> tiktok [
+	self setImageTagUrl:'tiktok'.
 	^imageTag
 ]
 
@@ -5820,6 +8526,18 @@ SBSImageIcon >> toggles2 [
 { #category : #icons }
 SBSImageIcon >> tools [
 	self setImageTagUrl:'tools'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> tornado [
+	self setImageTagUrl:'tornado'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> translate [
+	self setImageTagUrl:'translate'.
 	^imageTag
 ]
 
@@ -5884,6 +8602,18 @@ SBSImageIcon >> trophy [
 ]
 
 { #category : #icons }
+SBSImageIcon >> trophyFill [
+	self setImageTagUrl:'trophy-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> tropicalStorm [
+	self setImageTagUrl:'tropical-storm'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> truck [
 	self setImageTagUrl:'truck'.
 	^imageTag
@@ -5896,6 +8626,12 @@ SBSImageIcon >> truckFlatbed [
 ]
 
 { #category : #icons }
+SBSImageIcon >> tsunami [
+	self setImageTagUrl:'tsunami'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> tv [
 	self setImageTagUrl:'tv'.
 	^imageTag
@@ -5904,6 +8640,18 @@ SBSImageIcon >> tv [
 { #category : #icons }
 SBSImageIcon >> tvFill [
 	self setImageTagUrl:'tv-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> twitch [
+	self setImageTagUrl:'twitch'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> twitter [
+	self setImageTagUrl:'twitter'.
 	^imageTag
 ]
 
@@ -5962,8 +8710,32 @@ SBSImageIcon >> uiChecks [
 ]
 
 { #category : #icons }
+SBSImageIcon >> uiChecksGrid [
+	self setImageTagUrl:'ui-checks-grid'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> uiRadios [
 	self setImageTagUrl:'ui-radios'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> uiRadiosGrid [
+	self setImageTagUrl:'ui-radios-grid'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> umbrella [
+	self setImageTagUrl:'umbrella'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> umbrellaFill [
+	self setImageTagUrl:'umbrella-fill'.
 	^imageTag
 ]
 
@@ -6004,6 +8776,90 @@ SBSImageIcon >> upload [
 ]
 
 { #category : #icons }
+SBSImageIcon >> usb [
+	self setImageTagUrl:'usb'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbC [
+	self setImageTagUrl:'usb-c'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbCFill [
+	self setImageTagUrl:'usb-c-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbDrive [
+	self setImageTagUrl:'usb-drive'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbDriveFill [
+	self setImageTagUrl:'usb-drive-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbFill [
+	self setImageTagUrl:'usb-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbMicro [
+	self setImageTagUrl:'usb-micro'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbMicroFill [
+	self setImageTagUrl:'usb-micro-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbMini [
+	self setImageTagUrl:'usb-mini'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbMiniFill [
+	self setImageTagUrl:'usb-mini-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbPlug [
+	self setImageTagUrl:'usb-plug'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbPlugFill [
+	self setImageTagUrl:'usb-plug-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> usbSymbol [
+	self setImageTagUrl:'usb-symbol'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> vectorPen [
+	self setImageTagUrl:'vector-pen'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> viewList [
 	self setImageTagUrl:'view-list'.
 	^imageTag
@@ -6012,6 +8868,24 @@ SBSImageIcon >> viewList [
 { #category : #icons }
 SBSImageIcon >> viewStacked [
 	self setImageTagUrl:'view-stacked'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> vimeo [
+	self setImageTagUrl:'vimeo'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> vinyl [
+	self setImageTagUrl:'vinyl'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> vinylFill [
+	self setImageTagUrl:'vinyl-fill'.
 	^imageTag
 ]
 
@@ -6100,6 +8974,30 @@ SBSImageIcon >> watch [
 ]
 
 { #category : #icons }
+SBSImageIcon >> water [
+	self setImageTagUrl:'water'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> webcam [
+	self setImageTagUrl:'webcam'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> webcamFill [
+	self setImageTagUrl:'webcam-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> whatsapp [
+	self setImageTagUrl:'whatsapp'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> wifi [
 	self setImageTagUrl:'wifi'.
 	^imageTag
@@ -6124,8 +9022,80 @@ SBSImageIcon >> wifiOff [
 ]
 
 { #category : #icons }
+SBSImageIcon >> wind [
+	self setImageTagUrl:'wind'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> window [
 	self setImageTagUrl:'window'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowDash [
+	self setImageTagUrl:'window-dash'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowDesktop [
+	self setImageTagUrl:'window-desktop'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowDock [
+	self setImageTagUrl:'window-dock'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowFullscreen [
+	self setImageTagUrl:'window-fullscreen'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowPlus [
+	self setImageTagUrl:'window-plus'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowSidebar [
+	self setImageTagUrl:'window-sidebar'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowSplit [
+	self setImageTagUrl:'window-split'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowStack [
+	self setImageTagUrl:'window-stack'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windowX [
+	self setImageTagUrl:'window-x'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> windows [
+	self setImageTagUrl:'windows'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> wordpress [
+	self setImageTagUrl:'wordpress'.
 	^imageTag
 ]
 
@@ -6166,6 +9136,12 @@ SBSImageIcon >> xDiamondFill [
 ]
 
 { #category : #icons }
+SBSImageIcon >> xLg [
+	self setImageTagUrl:'x-lg'.
+	^imageTag
+]
+
+{ #category : #icons }
 SBSImageIcon >> xOctagon [
 	self setImageTagUrl:'x-octagon'.
 	^imageTag
@@ -6186,6 +9162,24 @@ SBSImageIcon >> xSquare [
 { #category : #icons }
 SBSImageIcon >> xSquareFill [
 	self setImageTagUrl:'x-square-fill'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> xbox [
+	self setImageTagUrl:'xbox'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> yinYang [
+	self setImageTagUrl:'yin-yang'.
+	^imageTag
+]
+
+{ #category : #icons }
+SBSImageIcon >> youtube [
+	self setImageTagUrl:'youtube'.
 	^imageTag
 ]
 

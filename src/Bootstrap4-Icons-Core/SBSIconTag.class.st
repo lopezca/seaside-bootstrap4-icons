@@ -184,6 +184,12 @@ SBSIconTag class >> xlinkUrlFor: identifier base: url [
 ]
 
 { #category : #icons }
+SBSIconTag >> activity [
+	identifier := 'activity'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> alarm [
 	identifier := 'alarm'.
 	self defineClassFromIdentifier
@@ -246,6 +252,12 @@ SBSIconTag >> app [
 { #category : #icons }
 SBSIconTag >> appIndicator [
 	identifier := 'app-indicator'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> apple [
+	identifier := 'apple'.
 	self defineClassFromIdentifier
 ]
 
@@ -718,6 +730,18 @@ SBSIconTag >> backspaceReverseFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> badge3d [
+	identifier := 'badge-3d'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badge3dFill [
+	identifier := 'badge-3d-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> badge4k [
 	identifier := 'badge-4k'.
 	self defineClassFromIdentifier
@@ -738,6 +762,30 @@ SBSIconTag >> badge8k [
 { #category : #icons }
 SBSIconTag >> badge8kFill [
 	identifier := 'badge-8k-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeAd [
+	identifier := 'badge-ad'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeAdFill [
+	identifier := 'badge-ad-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeAr [
+	identifier := 'badge-ar'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeArFill [
+	identifier := 'badge-ar-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -790,6 +838,30 @@ SBSIconTag >> badgeVoFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> badgeVr [
+	identifier := 'badge-vr'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeVrFill [
+	identifier := 'badge-vr-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeWc [
+	identifier := 'badge-wc'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> badgeWcFill [
+	identifier := 'badge-wc-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> bag [
 	identifier := 'bag'.
 	self defineClassFromIdentifier
@@ -802,8 +874,20 @@ SBSIconTag >> bagCheck [
 ]
 
 { #category : #icons }
+SBSIconTag >> bagCheckFill [
+	identifier := 'bag-check-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> bagDash [
 	identifier := 'bag-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bagDashFill [
+	identifier := 'bag-dash-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -816,6 +900,48 @@ SBSIconTag >> bagFill [
 { #category : #icons }
 SBSIconTag >> bagPlus [
 	identifier := 'bag-plus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bagPlusFill [
+	identifier := 'bag-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bagX [
+	identifier := 'bag-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bagXFill [
+	identifier := 'bag-x-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bandaid [
+	identifier := 'bandaid'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bandaidFill [
+	identifier := 'bandaid-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bank [
+	identifier := 'bank'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bank2 [
+	identifier := 'bank2'.
 	self defineClassFromIdentifier
 ]
 
@@ -945,6 +1071,12 @@ SBSIconTag >> beSprite [
 ]
 
 { #category : #icons }
+SBSIconTag >> behance [
+	identifier := 'behance'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> bell [
 	identifier := 'bell'.
 	self defineClassFromIdentifier
@@ -953,6 +1085,18 @@ SBSIconTag >> bell [
 { #category : #icons }
 SBSIconTag >> bellFill [
 	identifier := 'bell-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bellSlash [
+	identifier := 'bell-slash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bellSlashFill [
+	identifier := 'bell-slash-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -999,6 +1143,18 @@ SBSIconTag >> blockquoteRight [
 ]
 
 { #category : #icons }
+SBSIconTag >> bluetooth [
+	identifier := 'bluetooth'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bodyText [
+	identifier := 'body-text'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> book [
 	identifier := 'book'.
 	self defineClassFromIdentifier
@@ -1029,8 +1185,20 @@ SBSIconTag >> bookmarkCheck [
 ]
 
 { #category : #icons }
+SBSIconTag >> bookmarkCheckFill [
+	identifier := 'bookmark-check-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> bookmarkDash [
 	identifier := 'bookmark-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkDashFill [
+	identifier := 'bookmark-dash-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -1041,8 +1209,50 @@ SBSIconTag >> bookmarkFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> bookmarkHeart [
+	identifier := 'bookmark-heart'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkHeartFill [
+	identifier := 'bookmark-heart-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> bookmarkPlus [
 	identifier := 'bookmark-plus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkPlusFill [
+	identifier := 'bookmark-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkStar [
+	identifier := 'bookmark-star'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkStarFill [
+	identifier := 'bookmark-star-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkX [
+	identifier := 'bookmark-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> bookmarkXFill [
+	identifier := 'bookmark-x-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -1065,6 +1275,18 @@ SBSIconTag >> bookshelf [
 ]
 
 { #category : #icons }
+SBSIconTag >> boombox [
+	identifier := 'boombox'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> boomboxFill [
+	identifier := 'boombox-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> bootstrap [
 	identifier := 'bootstrap'.
 	self defineClassFromIdentifier
@@ -1083,8 +1305,68 @@ SBSIconTag >> bootstrapReboot [
 ]
 
 { #category : #icons }
+SBSIconTag >> border [
+	identifier := 'border'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderAll [
+	identifier := 'border-all'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderBottom [
+	identifier := 'border-bottom'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderCenter [
+	identifier := 'border-center'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderInner [
+	identifier := 'border-inner'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderLeft [
+	identifier := 'border-left'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderMiddle [
+	identifier := 'border-middle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderOuter [
+	identifier := 'border-outer'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderRight [
+	identifier := 'border-right'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> borderStyle [
 	identifier := 'border-style'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> borderTop [
+	identifier := 'border-top'.
 	self defineClassFromIdentifier
 ]
 
@@ -1215,6 +1497,12 @@ SBSIconTag >> boxSeam [
 ]
 
 { #category : #icons }
+SBSIconTag >> boxes [
+	identifier := 'boxes'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> braces [
 	identifier := 'braces'.
 	self defineClassFromIdentifier
@@ -1301,6 +1589,12 @@ SBSIconTag >> broadcastPin [
 { #category : #icons }
 SBSIconTag >> brush [
 	identifier := 'brush'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> brushFill [
+	identifier := 'brush-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -1475,6 +1769,18 @@ SBSIconTag >> calendar2Week [
 { #category : #icons }
 SBSIconTag >> calendar2WeekFill [
 	identifier := 'calendar2-week-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> calendar2X [
+	identifier := 'calendar2-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> calendar2XFill [
+	identifier := 'calendar2-x-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -1661,6 +1967,18 @@ SBSIconTag >> calendarWeek [
 { #category : #icons }
 SBSIconTag >> calendarWeekFill [
 	identifier := 'calendar-week-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> calendarX [
+	identifier := 'calendar-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> calendarXFill [
+	identifier := 'calendar-x-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -1887,8 +2205,20 @@ SBSIconTag >> cartCheck [
 ]
 
 { #category : #icons }
+SBSIconTag >> cartCheckFill [
+	identifier := 'cart-check-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> cartDash [
 	identifier := 'cart-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cartDashFill [
+	identifier := 'cart-dash-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -1905,8 +2235,32 @@ SBSIconTag >> cartPlus [
 ]
 
 { #category : #icons }
+SBSIconTag >> cartPlusFill [
+	identifier := 'cart-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cartX [
+	identifier := 'cart-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cartXFill [
+	identifier := 'cart-x-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> cash [
 	identifier := 'cash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cashCoin [
+	identifier := 'cash-coin'.
 	self defineClassFromIdentifier
 ]
 
@@ -2163,6 +2517,12 @@ SBSIconTag >> checkCircleFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> checkLg [
+	identifier := 'check-lg'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> checkSquare [
 	identifier := 'check-square'.
 	self defineClassFromIdentifier
@@ -2349,6 +2709,12 @@ SBSIconTag >> clipboardPlus [
 ]
 
 { #category : #icons }
+SBSIconTag >> clipboardX [
+	identifier := 'clipboard-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> clock [
 	identifier := 'clock'.
 	self defineClassFromIdentifier
@@ -2421,8 +2787,104 @@ SBSIconTag >> cloudDownloadFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> cloudDrizzle [
+	identifier := 'cloud-drizzle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudDrizzleFill [
+	identifier := 'cloud-drizzle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> cloudFill [
 	identifier := 'cloud-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudFog [
+	identifier := 'cloud-fog'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudFog2 [
+	identifier := 'cloud-fog2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudFog2Fill [
+	identifier := 'cloud-fog2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudFogFill [
+	identifier := 'cloud-fog-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudHail [
+	identifier := 'cloud-hail'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudHailFill [
+	identifier := 'cloud-hail-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudHaze [
+	identifier := 'cloud-haze'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudHaze2 [
+	identifier := 'cloud-haze2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudHaze2Fill [
+	identifier := 'cloud-haze2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudHazeFill [
+	identifier := 'cloud-haze-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudLightning [
+	identifier := 'cloud-lightning'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudLightningFill [
+	identifier := 'cloud-lightning-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudLightningRain [
+	identifier := 'cloud-lightning-rain'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudLightningRainFill [
+	identifier := 'cloud-lightning-rain-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2439,6 +2901,18 @@ SBSIconTag >> cloudMinusFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> cloudMoon [
+	identifier := 'cloud-moon'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudMoonFill [
+	identifier := 'cloud-moon-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> cloudPlus [
 	identifier := 'cloud-plus'.
 	self defineClassFromIdentifier
@@ -2447,6 +2921,30 @@ SBSIconTag >> cloudPlus [
 { #category : #icons }
 SBSIconTag >> cloudPlusFill [
 	identifier := 'cloud-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudRain [
+	identifier := 'cloud-rain'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudRainFill [
+	identifier := 'cloud-rain-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudRainHeavy [
+	identifier := 'cloud-rain-heavy'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudRainHeavyFill [
+	identifier := 'cloud-rain-heavy-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2463,6 +2961,42 @@ SBSIconTag >> cloudSlashFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> cloudSleet [
+	identifier := 'cloud-sleet'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudSleetFill [
+	identifier := 'cloud-sleet-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudSnow [
+	identifier := 'cloud-snow'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudSnowFill [
+	identifier := 'cloud-snow-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudSun [
+	identifier := 'cloud-sun'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudSunFill [
+	identifier := 'cloud-sun-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> cloudUpload [
 	identifier := 'cloud-upload'.
 	self defineClassFromIdentifier
@@ -2471,6 +3005,30 @@ SBSIconTag >> cloudUpload [
 { #category : #icons }
 SBSIconTag >> cloudUploadFill [
 	identifier := 'cloud-upload-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> clouds [
+	identifier := 'clouds'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudsFill [
+	identifier := 'clouds-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudy [
+	identifier := 'cloudy'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> cloudyFill [
+	identifier := 'cloudy-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2489,6 +3047,12 @@ SBSIconTag >> codeSlash [
 { #category : #icons }
 SBSIconTag >> codeSquare [
 	identifier := 'code-square'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> coin [
+	identifier := 'coin'.
 	self defineClassFromIdentifier
 ]
 
@@ -2537,6 +3101,12 @@ SBSIconTag >> command [
 { #category : #icons }
 SBSIconTag >> compass [
 	identifier := 'compass'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> compassFill [
+	identifier := 'compass-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2619,8 +3189,50 @@ SBSIconTag >> cup [
 ]
 
 { #category : #icons }
+SBSIconTag >> cupFill [
+	identifier := 'cup-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> cupStraw [
 	identifier := 'cup-straw'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> currencyBitcoin [
+	identifier := 'currency-bitcoin'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> currencyDollar [
+	identifier := 'currency-dollar'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> currencyEuro [
+	identifier := 'currency-euro'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> currencyExchange [
+	identifier := 'currency-exchange'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> currencyPound [
+	identifier := 'currency-pound'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> currencyYen [
+	identifier := 'currency-yen'.
 	self defineClassFromIdentifier
 ]
 
@@ -2655,14 +3267,32 @@ SBSIconTag >> dashCircle [
 ]
 
 { #category : #icons }
+SBSIconTag >> dashCircleDotted [
+	identifier := 'dash-circle-dotted'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> dashCircleFill [
 	identifier := 'dash-circle-fill'.
 	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
+SBSIconTag >> dashLg [
+	identifier := 'dash-lg'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> dashSquare [
 	identifier := 'dash-square'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> dashSquareDotted [
+	identifier := 'dash-square-dotted'.
 	self defineClassFromIdentifier
 ]
 
@@ -2682,6 +3312,30 @@ SBSIconTag >> defineClassFromIdentifier [
 			 ]
 		ifFalse: [ self class: 'bi-' , identifier ].
 	
+]
+
+{ #category : #icons }
+SBSIconTag >> deviceHdd [
+	identifier := 'device-hdd'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> deviceHddFill [
+	identifier := 'device-hdd-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> deviceSsd [
+	identifier := 'device-ssd'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> deviceSsdFill [
+	identifier := 'device-ssd-fill'.
+	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
@@ -2799,6 +3453,24 @@ SBSIconTag >> dice6Fill [
 ]
 
 { #category : #icons }
+SBSIconTag >> disc [
+	identifier := 'disc'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> discFill [
+	identifier := 'disc-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> discord [
+	identifier := 'discord'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> display [
 	identifier := 'display'.
 	self defineClassFromIdentifier
@@ -2807,6 +3479,18 @@ SBSIconTag >> display [
 { #category : #icons }
 SBSIconTag >> displayFill [
 	identifier := 'display-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> displayport [
+	identifier := 'displayport'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> displayportFill [
+	identifier := 'displayport-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2859,6 +3543,24 @@ SBSIconTag >> download [
 ]
 
 { #category : #icons }
+SBSIconTag >> dpad [
+	identifier := 'dpad'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> dpadFill [
+	identifier := 'dpad-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> dribbble [
+	identifier := 'dribbble'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> droplet [
 	identifier := 'droplet'.
 	self defineClassFromIdentifier
@@ -2877,6 +3579,18 @@ SBSIconTag >> dropletHalf [
 ]
 
 { #category : #icons }
+SBSIconTag >> ear [
+	identifier := 'ear'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> earFill [
+	identifier := 'ear-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> earbuds [
 	identifier := 'earbuds'.
 	self defineClassFromIdentifier
@@ -2885,6 +3599,30 @@ SBSIconTag >> earbuds [
 { #category : #icons }
 SBSIconTag >> easel [
 	identifier := 'easel'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> easel2 [
+	identifier := 'easel2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> easel2Fill [
+	identifier := 'easel2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> easel3 [
+	identifier := 'easel3'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> easel3Fill [
+	identifier := 'easel3-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2936,8 +3674,20 @@ SBSIconTag >> emojiAngry [
 ]
 
 { #category : #icons }
+SBSIconTag >> emojiAngryFill [
+	identifier := 'emoji-angry-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> emojiDizzy [
 	identifier := 'emoji-dizzy'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiDizzyFill [
+	identifier := 'emoji-dizzy-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2948,8 +3698,32 @@ SBSIconTag >> emojiExpressionless [
 ]
 
 { #category : #icons }
+SBSIconTag >> emojiExpressionlessFill [
+	identifier := 'emoji-expressionless-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> emojiFrown [
 	identifier := 'emoji-frown'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiFrownFill [
+	identifier := 'emoji-frown-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiHeartEyes [
+	identifier := 'emoji-heart-eyes'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiHeartEyesFill [
+	identifier := 'emoji-heart-eyes-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2960,8 +3734,20 @@ SBSIconTag >> emojiLaughing [
 ]
 
 { #category : #icons }
+SBSIconTag >> emojiLaughingFill [
+	identifier := 'emoji-laughing-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> emojiNeutral [
 	identifier := 'emoji-neutral'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiNeutralFill [
+	identifier := 'emoji-neutral-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2972,8 +3758,20 @@ SBSIconTag >> emojiSmile [
 ]
 
 { #category : #icons }
+SBSIconTag >> emojiSmileFill [
+	identifier := 'emoji-smile-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> emojiSmileUpsideDown [
 	identifier := 'emoji-smile-upside-down'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiSmileUpsideDownFill [
+	identifier := 'emoji-smile-upside-down-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -2984,8 +3782,62 @@ SBSIconTag >> emojiSunglasses [
 ]
 
 { #category : #icons }
+SBSIconTag >> emojiSunglassesFill [
+	identifier := 'emoji-sunglasses-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiWink [
+	identifier := 'emoji-wink'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> emojiWinkFill [
+	identifier := 'emoji-wink-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> envelope [
 	identifier := 'envelope'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeCheck [
+	identifier := 'envelope-check'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeCheckFill [
+	identifier := 'envelope-check-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeDash [
+	identifier := 'envelope-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeDashFill [
+	identifier := 'envelope-dash-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeExclamation [
+	identifier := 'envelope-exclamation'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeExclamationFill [
+	identifier := 'envelope-exclamation-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3004,6 +3856,60 @@ SBSIconTag >> envelopeOpen [
 { #category : #icons }
 SBSIconTag >> envelopeOpenFill [
 	identifier := 'envelope-open-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopePlus [
+	identifier := 'envelope-plus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopePlusFill [
+	identifier := 'envelope-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeSlash [
+	identifier := 'envelope-slash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeSlashFill [
+	identifier := 'envelope-slash-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeX [
+	identifier := 'envelope-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> envelopeXFill [
+	identifier := 'envelope-x-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> eraser [
+	identifier := 'eraser'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> eraserFill [
+	identifier := 'eraser-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ethernet [
+	identifier := 'ethernet'.
 	self defineClassFromIdentifier
 ]
 
@@ -3034,6 +3940,12 @@ SBSIconTag >> exclamationDiamond [
 { #category : #icons }
 SBSIconTag >> exclamationDiamondFill [
 	identifier := 'exclamation-diamond-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> exclamationLg [
+	identifier := 'exclamation-lg'.
 	self defineClassFromIdentifier
 ]
 
@@ -3080,6 +3992,18 @@ SBSIconTag >> exclude [
 ]
 
 { #category : #icons }
+SBSIconTag >> explicit [
+	identifier := 'explicit'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> explicitFill [
+	identifier := 'explicit-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> eye [
 	identifier := 'eye'.
 	self defineClassFromIdentifier
@@ -3104,8 +4028,26 @@ SBSIconTag >> eyeSlashFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> eyedropper [
+	identifier := 'eyedropper'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> eyeglasses [
 	identifier := 'eyeglasses'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> facebook [
+	identifier := 'facebook'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fan [
+	identifier := 'fan'.
 	self defineClassFromIdentifier
 ]
 
@@ -3136,6 +4078,18 @@ SBSIconTag >> fileArrowUp [
 { #category : #icons }
 SBSIconTag >> fileArrowUpFill [
 	identifier := 'file-arrow-up-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileBarGraph [
+	identifier := 'file-bar-graph'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileBarGraphFill [
+	identifier := 'file-bar-graph-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3212,6 +4166,12 @@ SBSIconTag >> fileEarmarkArrowDown [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileEarmarkArrowDownFill [
+	identifier := 'file-earmark-arrow-down-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileEarmarkArrowUp [
 	identifier := 'file-earmark-arrow-up'.
 	self defineClassFromIdentifier
@@ -3220,6 +4180,18 @@ SBSIconTag >> fileEarmarkArrowUp [
 { #category : #icons }
 SBSIconTag >> fileEarmarkArrowUpFill [
 	identifier := 'file-earmark-arrow-up-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkBarGraph [
+	identifier := 'file-earmark-bar-graph'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkBarGraphFill [
+	identifier := 'file-earmark-bar-graph-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3284,8 +4256,80 @@ SBSIconTag >> fileEarmarkDiffFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileEarmarkEasel [
+	identifier := 'file-earmark-easel'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkEaselFill [
+	identifier := 'file-earmark-easel-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkExcel [
+	identifier := 'file-earmark-excel'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkExcelFill [
+	identifier := 'file-earmark-excel-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileEarmarkFill [
 	identifier := 'file-earmark-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkFont [
+	identifier := 'file-earmark-font'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkFontFill [
+	identifier := 'file-earmark-font-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkImage [
+	identifier := 'file-earmark-image'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkImageFill [
+	identifier := 'file-earmark-image-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkLock [
+	identifier := 'file-earmark-lock'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkLock2 [
+	identifier := 'file-earmark-lock2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkLock2Fill [
+	identifier := 'file-earmark-lock2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkLockFill [
+	identifier := 'file-earmark-lock-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3314,6 +4358,54 @@ SBSIconTag >> fileEarmarkMinusFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileEarmarkMusic [
+	identifier := 'file-earmark-music'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkMusicFill [
+	identifier := 'file-earmark-music-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPdf [
+	identifier := 'file-earmark-pdf'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPdfFill [
+	identifier := 'file-earmark-pdf-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPerson [
+	identifier := 'file-earmark-person'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPersonFill [
+	identifier := 'file-earmark-person-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPlay [
+	identifier := 'file-earmark-play'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPlayFill [
+	identifier := 'file-earmark-play-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileEarmarkPlus [
 	identifier := 'file-earmark-plus'.
 	self defineClassFromIdentifier
@@ -3326,6 +4418,42 @@ SBSIconTag >> fileEarmarkPlusFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileEarmarkPost [
+	identifier := 'file-earmark-post'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPostFill [
+	identifier := 'file-earmark-post-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPpt [
+	identifier := 'file-earmark-ppt'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkPptFill [
+	identifier := 'file-earmark-ppt-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkRichtext [
+	identifier := 'file-earmark-richtext'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkRichtextFill [
+	identifier := 'file-earmark-richtext-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileEarmarkRuled [
 	identifier := 'file-earmark-ruled'.
 	self defineClassFromIdentifier
@@ -3334,6 +4462,18 @@ SBSIconTag >> fileEarmarkRuled [
 { #category : #icons }
 SBSIconTag >> fileEarmarkRuledFill [
 	identifier := 'file-earmark-ruled-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkSlides [
+	identifier := 'file-earmark-slides'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkSlidesFill [
+	identifier := 'file-earmark-slides-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3362,6 +4502,30 @@ SBSIconTag >> fileEarmarkTextFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileEarmarkWord [
+	identifier := 'file-earmark-word'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkWordFill [
+	identifier := 'file-earmark-word-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkX [
+	identifier := 'file-earmark-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEarmarkXFill [
+	identifier := 'file-earmark-x-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileEarmarkZip [
 	identifier := 'file-earmark-zip'.
 	self defineClassFromIdentifier
@@ -3374,8 +4538,80 @@ SBSIconTag >> fileEarmarkZipFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileEasel [
+	identifier := 'file-easel'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileEaselFill [
+	identifier := 'file-easel-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileExcel [
+	identifier := 'file-excel'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileExcelFill [
+	identifier := 'file-excel-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileFill [
 	identifier := 'file-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileFont [
+	identifier := 'file-font'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileFontFill [
+	identifier := 'file-font-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileImage [
+	identifier := 'file-image'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileImageFill [
+	identifier := 'file-image-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileLock [
+	identifier := 'file-lock'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileLock2 [
+	identifier := 'file-lock2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileLock2Fill [
+	identifier := 'file-lock2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileLockFill [
+	identifier := 'file-lock-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3416,6 +4652,18 @@ SBSIconTag >> fileMusicFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> filePdf [
+	identifier := 'file-pdf'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> filePdfFill [
+	identifier := 'file-pdf-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> filePerson [
 	identifier := 'file-person'.
 	self defineClassFromIdentifier
@@ -3424,6 +4672,18 @@ SBSIconTag >> filePerson [
 { #category : #icons }
 SBSIconTag >> filePersonFill [
 	identifier := 'file-person-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> filePlay [
+	identifier := 'file-play'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> filePlayFill [
+	identifier := 'file-play-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3452,6 +4712,18 @@ SBSIconTag >> filePostFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> filePpt [
+	identifier := 'file-ppt'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> filePptFill [
+	identifier := 'file-ppt-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileRichtext [
 	identifier := 'file-richtext'.
 	self defineClassFromIdentifier
@@ -3476,6 +4748,18 @@ SBSIconTag >> fileRuledFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> fileSlides [
+	identifier := 'file-slides'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileSlidesFill [
+	identifier := 'file-slides-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fileSpreadsheet [
 	identifier := 'file-spreadsheet'.
 	self defineClassFromIdentifier
@@ -3496,6 +4780,30 @@ SBSIconTag >> fileText [
 { #category : #icons }
 SBSIconTag >> fileTextFill [
 	identifier := 'file-text-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileWord [
+	identifier := 'file-word'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileWordFill [
+	identifier := 'file-word-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileX [
+	identifier := 'file-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fileXFill [
+	identifier := 'file-x-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3573,6 +4881,12 @@ SBSIconTag >> filterSquare [
 { #category : #icons }
 SBSIconTag >> filterSquareFill [
 	identifier := 'filter-square-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> fingerprint [
+	identifier := 'fingerprint'.
 	self defineClassFromIdentifier
 ]
 
@@ -3661,6 +4975,12 @@ SBSIconTag >> folderSymlinkFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> folderX [
+	identifier := 'folder-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> fonts [
 	identifier := 'fonts'.
 	self defineClassFromIdentifier
@@ -3739,6 +5059,30 @@ SBSIconTag >> gem [
 ]
 
 { #category : #icons }
+SBSIconTag >> genderAmbiguous [
+	identifier := 'gender-ambiguous'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> genderFemale [
+	identifier := 'gender-female'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> genderMale [
+	identifier := 'gender-male'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> genderTrans [
+	identifier := 'gender-trans'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> geo [
 	identifier := 'geo'.
 	self defineClassFromIdentifier
@@ -3747,6 +5091,18 @@ SBSIconTag >> geo [
 { #category : #icons }
 SBSIconTag >> geoAlt [
 	identifier := 'geo-alt'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> geoAltFill [
+	identifier := 'geo-alt-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> geoFill [
+	identifier := 'geo-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3763,6 +5119,18 @@ SBSIconTag >> giftFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> git [
+	identifier := 'git'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> github [
+	identifier := 'github'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> globe [
 	identifier := 'globe'.
 	self defineClassFromIdentifier
@@ -3775,14 +5143,38 @@ SBSIconTag >> globe2 [
 ]
 
 { #category : #icons }
+SBSIconTag >> google [
+	identifier := 'google'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> gpuCard [
+	identifier := 'gpu-card'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> graphDown [
 	identifier := 'graph-down'.
 	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
+SBSIconTag >> graphDownArrow [
+	identifier := 'graph-down-arrow'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> graphUp [
 	identifier := 'graph-up'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> graphUpArrow [
+	identifier := 'graph-up-arrow'.
 	self defineClassFromIdentifier
 ]
 
@@ -3871,8 +5263,20 @@ SBSIconTag >> handIndex [
 ]
 
 { #category : #icons }
+SBSIconTag >> handIndexFill [
+	identifier := 'hand-index-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> handIndexThumb [
 	identifier := 'hand-index-thumb'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> handIndexThumbFill [
+	identifier := 'hand-index-thumb-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3883,8 +5287,20 @@ SBSIconTag >> handThumbsDown [
 ]
 
 { #category : #icons }
+SBSIconTag >> handThumbsDownFill [
+	identifier := 'hand-thumbs-down-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> handThumbsUp [
 	identifier := 'hand-thumbs-up'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> handThumbsUpFill [
+	identifier := 'hand-thumbs-up-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -3955,6 +5371,18 @@ SBSIconTag >> hddStackFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> hdmi [
+	identifier := 'hdmi'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> hdmiFill [
+	identifier := 'hdmi-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> headphones [
 	identifier := 'headphones'.
 	self defineClassFromIdentifier
@@ -3963,6 +5391,12 @@ SBSIconTag >> headphones [
 { #category : #icons }
 SBSIconTag >> headset [
 	identifier := 'headset'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> headsetVr [
+	identifier := 'headset-vr'.
 	self defineClassFromIdentifier
 ]
 
@@ -4080,6 +5514,18 @@ SBSIconTag >> hr [
 ]
 
 { #category : #icons }
+SBSIconTag >> hurricane [
+	identifier := 'hurricane'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> hypnotize [
+	identifier := 'hypnotize'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> image [
 	identifier := 'image'.
 	self defineClassFromIdentifier
@@ -4128,6 +5574,12 @@ SBSIconTag >> inboxesFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> infinity [
+	identifier := 'infinity'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> info [
 	identifier := 'info'.
 	self defineClassFromIdentifier
@@ -4142,6 +5594,12 @@ SBSIconTag >> infoCircle [
 { #category : #icons }
 SBSIconTag >> infoCircleFill [
 	identifier := 'info-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> infoLg [
+	identifier := 'info-lg'.
 	self defineClassFromIdentifier
 ]
 
@@ -4178,6 +5636,12 @@ SBSIconTag >> inputCursorText [
 ]
 
 { #category : #icons }
+SBSIconTag >> instagram [
+	identifier := 'instagram'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> intersect [
 	identifier := 'intersect'.
 	self defineClassFromIdentifier
@@ -4204,6 +5668,18 @@ SBSIconTag >> journalArrowDown [
 { #category : #icons }
 SBSIconTag >> journalArrowUp [
 	identifier := 'journal-arrow-up'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> journalBookmark [
+	identifier := 'journal-bookmark'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> journalBookmarkFill [
+	identifier := 'journal-bookmark-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4246,6 +5722,12 @@ SBSIconTag >> journalRichtext [
 { #category : #icons }
 SBSIconTag >> journalText [
 	identifier := 'journal-text'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> journalX [
+	identifier := 'journal-x'.
 	self defineClassFromIdentifier
 ]
 
@@ -4346,6 +5828,18 @@ SBSIconTag >> laptopFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> layerBackward [
+	identifier := 'layer-backward'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> layerForward [
+	identifier := 'layer-forward'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> layers [
 	identifier := 'layers'.
 	self defineClassFromIdentifier
@@ -4436,14 +5930,56 @@ SBSIconTag >> lifePreserver [
 ]
 
 { #category : #icons }
+SBSIconTag >> lightbulb [
+	identifier := 'lightbulb'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> lightbulbFill [
+	identifier := 'lightbulb-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> lightbulbOff [
+	identifier := 'lightbulb-off'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> lightbulbOffFill [
+	identifier := 'lightbulb-off-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> lightning [
 	identifier := 'lightning'.
 	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
+SBSIconTag >> lightningCharge [
+	identifier := 'lightning-charge'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> lightningChargeFill [
+	identifier := 'lightning-charge-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> lightningFill [
 	identifier := 'lightning-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> line [
+	identifier := 'line'.
 	self defineClassFromIdentifier
 ]
 
@@ -4460,6 +5996,12 @@ SBSIconTag >> link45deg [
 ]
 
 { #category : #icons }
+SBSIconTag >> linkedin [
+	identifier := 'linkedin'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> list [
 	identifier := 'list'.
 	self defineClassFromIdentifier
@@ -4468,6 +6010,18 @@ SBSIconTag >> list [
 { #category : #icons }
 SBSIconTag >> listCheck [
 	identifier := 'list-check'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> listColumns [
+	identifier := 'list-columns'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> listColumnsReverse [
+	identifier := 'list-columns-reverse'.
 	self defineClassFromIdentifier
 ]
 
@@ -4514,6 +6068,12 @@ SBSIconTag >> lockFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> magic [
+	identifier := 'magic'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> mailbox [
 	identifier := 'mailbox'.
 	self defineClassFromIdentifier
@@ -4532,6 +6092,12 @@ SBSIconTag >> map [
 ]
 
 { #category : #icons }
+SBSIconTag >> mapFill [
+	identifier := 'map-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> markdown [
 	identifier := 'markdown'.
 	self defineClassFromIdentifier
@@ -4540,6 +6106,42 @@ SBSIconTag >> markdown [
 { #category : #icons }
 SBSIconTag >> markdownFill [
 	identifier := 'markdown-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> mask [
+	identifier := 'mask'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> mastodon [
+	identifier := 'mastodon'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> medium [
+	identifier := 'medium'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> megaphone [
+	identifier := 'megaphone'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> megaphoneFill [
+	identifier := 'megaphone-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> memory [
+	identifier := 'memory'.
 	self defineClassFromIdentifier
 ]
 
@@ -4592,6 +6194,18 @@ SBSIconTag >> menuUp [
 ]
 
 { #category : #icons }
+SBSIconTag >> messenger [
+	identifier := 'messenger'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> meta [
+	identifier := 'meta'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> mic [
 	identifier := 'mic'.
 	self defineClassFromIdentifier
@@ -4616,6 +6230,12 @@ SBSIconTag >> micMuteFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> microsoft [
+	identifier := 'microsoft'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> minecart [
 	identifier := 'minecart'.
 	self defineClassFromIdentifier
@@ -4628,8 +6248,68 @@ SBSIconTag >> minecartLoaded [
 ]
 
 { #category : #icons }
+SBSIconTag >> modem [
+	identifier := 'modem'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> modemFill [
+	identifier := 'modem-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> moisture [
+	identifier := 'moisture'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> moon [
 	identifier := 'moon'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> moonFill [
+	identifier := 'moon-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> moonStars [
+	identifier := 'moon-stars'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> moonStarsFill [
+	identifier := 'moon-stars-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> mortarboard [
+	identifier := 'mortarboard'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> mortarboardFill [
+	identifier := 'mortarboard-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> motherboard [
+	identifier := 'motherboard'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> motherboardFill [
+	identifier := 'motherboard-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4646,8 +6326,26 @@ SBSIconTag >> mouse2 [
 ]
 
 { #category : #icons }
+SBSIconTag >> mouse2Fill [
+	identifier := 'mouse2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> mouse3 [
 	identifier := 'mouse3'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> mouse3Fill [
+	identifier := 'mouse3-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> mouseFill [
+	identifier := 'mouse-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4684,6 +6382,12 @@ SBSIconTag >> musicPlayerFill [
 { #category : #icons }
 SBSIconTag >> newspaper [
 	identifier := 'newspaper'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> nintendoSwitch [
+	identifier := 'nintendo-switch'.
 	self defineClassFromIdentifier
 ]
 
@@ -4742,6 +6446,24 @@ SBSIconTag >> octagonHalf [
 ]
 
 { #category : #icons }
+SBSIconTag >> oneTwoThree [
+	identifier := '123'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> opticalAudio [
+	identifier := 'optical-audio'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> opticalAudioFill [
+	identifier := 'optical-audio-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> option [
 	identifier := 'option'.
 	self defineClassFromIdentifier
@@ -4750,6 +6472,30 @@ SBSIconTag >> option [
 { #category : #icons }
 SBSIconTag >> outlet [
 	identifier := 'outlet'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> paintBucket [
+	identifier := 'paint-bucket'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> palette [
+	identifier := 'palette'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> palette2 [
+	identifier := 'palette2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> paletteFill [
+	identifier := 'palette-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4772,8 +6518,14 @@ SBSIconTag >> patchCheck [
 ]
 
 { #category : #icons }
+SBSIconTag >> patchCheckFill [
+	identifier := 'patch-check-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> patchCheckFll [
-	identifier := 'patch-check-fll'.
+	identifier := 'patch-check-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4784,8 +6536,14 @@ SBSIconTag >> patchExclamation [
 ]
 
 { #category : #icons }
+SBSIconTag >> patchExclamationFill [
+	identifier := 'patch-exclamation-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> patchExclamationFll [
-	identifier := 'patch-exclamation-fll'.
+	identifier := 'patch-exclamation-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4796,8 +6554,14 @@ SBSIconTag >> patchMinus [
 ]
 
 { #category : #icons }
+SBSIconTag >> patchMinusFill [
+	identifier := 'patch-minus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> patchMinusFll [
-	identifier := 'patch-minus-fll'.
+	identifier := 'patch-minus-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4808,8 +6572,14 @@ SBSIconTag >> patchPlus [
 ]
 
 { #category : #icons }
+SBSIconTag >> patchPlusFill [
+	identifier := 'patch-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> patchPlusFll [
-	identifier := 'patch-plus-fll'.
+	identifier := 'patch-plus-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4820,8 +6590,14 @@ SBSIconTag >> patchQuestion [
 ]
 
 { #category : #icons }
+SBSIconTag >> patchQuestionFill [
+	identifier := 'patch-question-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> patchQuestionFll [
-	identifier := 'patch-question-fll'.
+	identifier := 'patch-question-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4832,8 +6608,68 @@ SBSIconTag >> pause [
 ]
 
 { #category : #icons }
+SBSIconTag >> pauseBtn [
+	identifier := 'pause-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pauseBtnFill [
+	identifier := 'pause-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pauseCircle [
+	identifier := 'pause-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pauseCircleFill [
+	identifier := 'pause-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> pauseFill [
 	identifier := 'pause-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> paypal [
+	identifier := 'paypal'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pc [
+	identifier := 'pc'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pcDisplay [
+	identifier := 'pc-display'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pcDisplayHorizontal [
+	identifier := 'pc-display-horizontal'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pcHorizontal [
+	identifier := 'pc-horizontal'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pciCard [
+	identifier := 'pci-card'.
 	self defineClassFromIdentifier
 ]
 
@@ -4856,8 +6692,20 @@ SBSIconTag >> pen [
 ]
 
 { #category : #icons }
+SBSIconTag >> penFill [
+	identifier := 'pen-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> pencil [
 	identifier := 'pencil'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pencilFill [
+	identifier := 'pencil-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -4982,8 +6830,50 @@ SBSIconTag >> personPlusFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> personRolodex [
+	identifier := 'person-rolodex'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> personSquare [
 	identifier := 'person-square'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> personVideo [
+	identifier := 'person-video'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> personVideo2 [
+	identifier := 'person-video2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> personVideo3 [
+	identifier := 'person-video3'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> personWorkspace [
+	identifier := 'person-workspace'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> personX [
+	identifier := 'person-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> personXFill [
+	identifier := 'person-x-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -5012,6 +6902,18 @@ SBSIconTag >> phoneLandscapeFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> phoneVibrate [
+	identifier := 'phone-vibrate'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> phoneVibrateFill [
+	identifier := 'phone-vibrate-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> pieChart [
 	identifier := 'pie-chart'.
 	self defineClassFromIdentifier
@@ -5020,6 +6922,60 @@ SBSIconTag >> pieChart [
 { #category : #icons }
 SBSIconTag >> pieChartFill [
 	identifier := 'pie-chart-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> piggyBank [
+	identifier := 'piggy-bank'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> piggyBankFill [
+	identifier := 'piggy-bank-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pin [
+	identifier := 'pin'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pinAngle [
+	identifier := 'pin-angle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pinAngleFill [
+	identifier := 'pin-angle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pinFill [
+	identifier := 'pin-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pinMap [
+	identifier := 'pin-map'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pinMapFill [
+	identifier := 'pin-map-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> pinterest [
+	identifier := 'pinterest'.
 	self defineClassFromIdentifier
 ]
 
@@ -5042,14 +6998,50 @@ SBSIconTag >> play [
 ]
 
 { #category : #icons }
+SBSIconTag >> playBtn [
+	identifier := 'play-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> playBtnFill [
+	identifier := 'play-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> playCircle [
+	identifier := 'play-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> playCircleFill [
+	identifier := 'play-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> playFill [
 	identifier := 'play-fill'.
 	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
+SBSIconTag >> playstation [
+	identifier := 'playstation'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> plug [
 	identifier := 'plug'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> plugFill [
+	identifier := 'plug-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -5066,14 +7058,38 @@ SBSIconTag >> plusCircle [
 ]
 
 { #category : #icons }
+SBSIconTag >> plusCircleDotted [
+	identifier := 'plus-circle-dotted'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> plusCircleFill [
 	identifier := 'plus-circle-fill'.
 	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
+SBSIconTag >> plusLg [
+	identifier := 'plus-lg'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> plusSlashMinus [
+	identifier := 'plus-slash-minus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> plusSquare [
 	identifier := 'plus-square'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> plusSquareDotted [
+	identifier := 'plus-square-dotted'.
 	self defineClassFromIdentifier
 ]
 
@@ -5102,6 +7118,18 @@ SBSIconTag >> printerFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> projector [
+	identifier := 'projector'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> projectorFill [
+	identifier := 'projector-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> puzzle [
 	identifier := 'puzzle'.
 	self defineClassFromIdentifier
@@ -5110,6 +7138,18 @@ SBSIconTag >> puzzle [
 { #category : #icons }
 SBSIconTag >> puzzleFill [
 	identifier := 'puzzle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> qrCode [
+	identifier := 'qr-code'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> qrCodeScan [
+	identifier := 'qr-code-scan'.
 	self defineClassFromIdentifier
 ]
 
@@ -5144,6 +7184,12 @@ SBSIconTag >> questionDiamondFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> questionLg [
+	identifier := 'question-lg'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> questionOctagon [
 	identifier := 'question-octagon'.
 	self defineClassFromIdentifier
@@ -5164,6 +7210,30 @@ SBSIconTag >> questionSquare [
 { #category : #icons }
 SBSIconTag >> questionSquareFill [
 	identifier := 'question-square-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> quora [
+	identifier := 'quora'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> quote [
+	identifier := 'quote'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> radioactive [
+	identifier := 'radioactive'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> rainbow [
+	identifier := 'rainbow'.
 	self defineClassFromIdentifier
 ]
 
@@ -5209,6 +7279,66 @@ SBSIconTag >> reception4 [
 	self defineClassFromIdentifier
 ]
 
+{ #category : #icons }
+SBSIconTag >> record [
+	identifier := 'record'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> record2 [
+	identifier := 'record2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> record2Fill [
+	identifier := 'record2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> recordBtn [
+	identifier := 'record-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> recordBtnFill [
+	identifier := 'record-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> recordCircle [
+	identifier := 'record-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> recordCircleFill [
+	identifier := 'record-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> recordFill [
+	identifier := 'record-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> recycle [
+	identifier := 'recycle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> reddit [
+	identifier := 'reddit'.
+	self defineClassFromIdentifier
+]
+
 { #category : #public }
 SBSIconTag >> renderEmbeddedSVG [
 	
@@ -5247,6 +7377,24 @@ SBSIconTag >> replyFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> robot [
+	identifier := 'robot'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> router [
+	identifier := 'router'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> routerFill [
+	identifier := 'router-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> rss [
 	identifier := 'rss'.
 	self defineClassFromIdentifier
@@ -5259,8 +7407,80 @@ SBSIconTag >> rssFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> rulers [
+	identifier := 'rulers'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> safe [
+	identifier := 'safe'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> safe2 [
+	identifier := 'safe2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> safe2Fill [
+	identifier := 'safe2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> safeFill [
+	identifier := 'safe-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> save [
+	identifier := 'save'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> save2 [
+	identifier := 'save2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> save2Fill [
+	identifier := 'save2-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> saveFill [
+	identifier := 'save-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> scissors [
+	identifier := 'scissors'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> screwdriver [
 	identifier := 'screwdriver'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sdCard [
+	identifier := 'sd-card'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sdCardFill [
+	identifier := 'sd-card-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -5273,6 +7493,90 @@ SBSIconTag >> search [
 { #category : #icons }
 SBSIconTag >> segmentedNav [
 	identifier := 'segmented-nav'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> send [
+	identifier := 'send'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendCheck [
+	identifier := 'send-check'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendCheckFill [
+	identifier := 'send-check-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendDash [
+	identifier := 'send-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendDashFill [
+	identifier := 'send-dash-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendExclamation [
+	identifier := 'send-exclamation'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendExclamationFill [
+	identifier := 'send-exclamation-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendFill [
+	identifier := 'send-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendPlus [
+	identifier := 'send-plus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendPlusFill [
+	identifier := 'send-plus-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendSlash [
+	identifier := 'send-slash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendSlashFill [
+	identifier := 'send-slash-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendX [
+	identifier := 'send-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sendXFill [
+	identifier := 'send-x-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -5343,6 +7647,12 @@ SBSIconTag >> shieldFillPlus [
 ]
 
 { #category : #icons }
+SBSIconTag >> shieldFillX [
+	identifier := 'shield-fill-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> shieldLock [
 	identifier := 'shield-lock'.
 	self defineClassFromIdentifier
@@ -5385,6 +7695,12 @@ SBSIconTag >> shieldSlashFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> shieldX [
+	identifier := 'shield-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> shift [
 	identifier := 'shift'.
 	self defineClassFromIdentifier
@@ -5411,6 +7727,12 @@ SBSIconTag >> shopWindow [
 { #category : #icons }
 SBSIconTag >> shuffle [
 	identifier := 'shuffle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> signal [
+	identifier := 'signal'.
 	self defineClassFromIdentifier
 ]
 
@@ -5478,6 +7800,30 @@ SBSIconTag >> skipBackward [
 ]
 
 { #category : #icons }
+SBSIconTag >> skipBackwardBtn [
+	identifier := 'skip-backward-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipBackwardBtnFill [
+	identifier := 'skip-backward-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipBackwardCircle [
+	identifier := 'skip-backward-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipBackwardCircleFill [
+	identifier := 'skip-backward-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> skipBackwardFill [
 	identifier := 'skip-backward-fill'.
 	self defineClassFromIdentifier
@@ -5486,6 +7832,30 @@ SBSIconTag >> skipBackwardFill [
 { #category : #icons }
 SBSIconTag >> skipEnd [
 	identifier := 'skip-end'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipEndBtn [
+	identifier := 'skip-end-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipEndBtnFill [
+	identifier := 'skip-end-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipEndCircle [
+	identifier := 'skip-end-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipEndCircleFill [
+	identifier := 'skip-end-circle-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -5502,6 +7872,30 @@ SBSIconTag >> skipForward [
 ]
 
 { #category : #icons }
+SBSIconTag >> skipForwardBtn [
+	identifier := 'skip-forward-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipForwardBtnFill [
+	identifier := 'skip-forward-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipForwardCircle [
+	identifier := 'skip-forward-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipForwardCircleFill [
+	identifier := 'skip-forward-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> skipForwardFill [
 	identifier := 'skip-forward-fill'.
 	self defineClassFromIdentifier
@@ -5514,8 +7908,44 @@ SBSIconTag >> skipStart [
 ]
 
 { #category : #icons }
+SBSIconTag >> skipStartBtn [
+	identifier := 'skip-start-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipStartBtnFill [
+	identifier := 'skip-start-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipStartCircle [
+	identifier := 'skip-start-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skipStartCircleFill [
+	identifier := 'skip-start-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> skipStartFill [
 	identifier := 'skip-start-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> skype [
+	identifier := 'skype'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> slack [
+	identifier := 'slack'.
 	self defineClassFromIdentifier
 ]
 
@@ -5534,6 +7964,12 @@ SBSIconTag >> slashCircle [
 { #category : #icons }
 SBSIconTag >> slashCircleFill [
 	identifier := 'slash-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> slashLg [
+	identifier := 'slash-lg'.
 	self defineClassFromIdentifier
 ]
 
@@ -5558,6 +7994,30 @@ SBSIconTag >> sliders [
 { #category : #icons }
 SBSIconTag >> smartwatch [
 	identifier := 'smartwatch'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> snapchat [
+	identifier := 'snapchat'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> snow [
+	identifier := 'snow'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> snow2 [
+	identifier := 'snow2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> snow3 [
+	identifier := 'snow3'.
 	self defineClassFromIdentifier
 ]
 
@@ -5646,8 +8106,32 @@ SBSIconTag >> speaker [
 ]
 
 { #category : #icons }
+SBSIconTag >> speakerFill [
+	identifier := 'speaker-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> speedometer [
+	identifier := 'speedometer'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> speedometer2 [
+	identifier := 'speedometer2'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> spellcheck [
 	identifier := 'spellcheck'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> spotify [
+	identifier := 'spotify'.
 	self defineClassFromIdentifier
 ]
 
@@ -5670,6 +8154,18 @@ SBSIconTag >> squareHalf [
 ]
 
 { #category : #icons }
+SBSIconTag >> stack [
+	identifier := 'stack'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> stackOverflow [
+	identifier := 'stack-overflow'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> star [
 	identifier := 'star'.
 	self defineClassFromIdentifier
@@ -5684,6 +8180,18 @@ SBSIconTag >> starFill [
 { #category : #icons }
 SBSIconTag >> starHalf [
 	identifier := 'star-half'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> stars [
+	identifier := 'stars'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> steam [
+	identifier := 'steam'.
 	self defineClassFromIdentifier
 ]
 
@@ -5718,6 +8226,30 @@ SBSIconTag >> stop [
 ]
 
 { #category : #icons }
+SBSIconTag >> stopBtn [
+	identifier := 'stop-btn'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> stopBtnFill [
+	identifier := 'stop-btn-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> stopCircle [
+	identifier := 'stop-circle'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> stopCircleFill [
+	identifier := 'stop-circle-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> stopFill [
 	identifier := 'stop-fill'.
 	self defineClassFromIdentifier
@@ -5744,6 +8276,12 @@ SBSIconTag >> stopwatch [
 { #category : #icons }
 SBSIconTag >> stopwatchFill [
 	identifier := 'stopwatch-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> strava [
+	identifier := 'strava'.
 	self defineClassFromIdentifier
 ]
 
@@ -5808,8 +8346,50 @@ SBSIconTag >> sun [
 ]
 
 { #category : #icons }
+SBSIconTag >> sunFill [
+	identifier := 'sun-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> sunglasses [
 	identifier := 'sunglasses'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sunrise [
+	identifier := 'sunrise'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sunriseFill [
+	identifier := 'sunrise-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sunset [
+	identifier := 'sunset'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> sunsetFill [
+	identifier := 'sunset-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> symmetryHorizontal [
+	identifier := 'symmetry-horizontal'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> symmetryVertical [
+	identifier := 'symmetry-vertical'.
 	self defineClassFromIdentifier
 ]
 
@@ -5855,7 +8435,7 @@ SBSIconTag >> tagFill [
 	self defineClassFromIdentifier
 ]
 
-{ #category : #'icons-special' }
+{ #category : #icons }
 SBSIconTag >> tagIcon [
 	identifier := 'tag'.
 	self defineClassFromIdentifier
@@ -5870,6 +8450,12 @@ SBSIconTag >> tags [
 { #category : #icons }
 SBSIconTag >> tagsFill [
 	identifier := 'tags-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> telegram [
+	identifier := 'telegram'.
 	self defineClassFromIdentifier
 ]
 
@@ -5964,8 +8550,32 @@ SBSIconTag >> terminal [
 ]
 
 { #category : #icons }
+SBSIconTag >> terminalDash [
+	identifier := 'terminal-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> terminalFill [
 	identifier := 'terminal-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> terminalPlus [
+	identifier := 'terminal-plus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> terminalSplit [
+	identifier := 'terminal-split'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> terminalX [
+	identifier := 'terminal-x'.
 	self defineClassFromIdentifier
 ]
 
@@ -5990,6 +8600,12 @@ SBSIconTag >> textIndentRight [
 { #category : #icons }
 SBSIconTag >> textLeft [
 	identifier := 'text-left'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> textParagraph [
+	identifier := 'text-paragraph'.
 	self defineClassFromIdentifier
 ]
 
@@ -6030,6 +8646,30 @@ SBSIconTag >> thermometerHalf [
 ]
 
 { #category : #icons }
+SBSIconTag >> thermometerHigh [
+	identifier := 'thermometer-high'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> thermometerLow [
+	identifier := 'thermometer-low'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> thermometerSnow [
+	identifier := 'thermometer-snow'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> thermometerSun [
+	identifier := 'thermometer-sun'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> threeDots [
 	identifier := 'three-dots'.
 	self defineClassFromIdentifier
@@ -6038,6 +8678,60 @@ SBSIconTag >> threeDots [
 { #category : #icons }
 SBSIconTag >> threeDotsVertical [
 	identifier := 'three-dots-vertical'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> thunderbolt [
+	identifier := 'thunderbolt'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> thunderboltFill [
+	identifier := 'thunderbolt-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ticket [
+	identifier := 'ticket'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ticketDetailed [
+	identifier := 'ticket-detailed'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ticketDetailedFill [
+	identifier := 'ticket-detailed-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ticketFill [
+	identifier := 'ticket-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ticketPerferated [
+	identifier := 'ticket-perferated'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> ticketPerferatedFill [
+	identifier := 'ticket-perferated-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> tiktok [
+	identifier := 'tiktok'.
 	self defineClassFromIdentifier
 ]
 
@@ -6080,6 +8774,18 @@ SBSIconTag >> toggles2 [
 { #category : #icons }
 SBSIconTag >> tools [
 	identifier := 'tools'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> tornado [
+	identifier := 'tornado'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> translate [
+	identifier := 'translate'.
 	self defineClassFromIdentifier
 ]
 
@@ -6144,6 +8850,18 @@ SBSIconTag >> trophy [
 ]
 
 { #category : #icons }
+SBSIconTag >> trophyFill [
+	identifier := 'trophy-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> tropicalStorm [
+	identifier := 'tropical-storm'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> truck [
 	identifier := 'truck'.
 	self defineClassFromIdentifier
@@ -6156,6 +8874,12 @@ SBSIconTag >> truckFlatbed [
 ]
 
 { #category : #icons }
+SBSIconTag >> tsunami [
+	identifier := 'tsunami'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> tv [
 	identifier := 'tv'.
 	self defineClassFromIdentifier
@@ -6164,6 +8888,18 @@ SBSIconTag >> tv [
 { #category : #icons }
 SBSIconTag >> tvFill [
 	identifier := 'tv-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> twitch [
+	identifier := 'twitch'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> twitter [
+	identifier := 'twitter'.
 	self defineClassFromIdentifier
 ]
 
@@ -6222,8 +8958,32 @@ SBSIconTag >> uiChecks [
 ]
 
 { #category : #icons }
+SBSIconTag >> uiChecksGrid [
+	identifier := 'ui-checks-grid'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> uiRadios [
 	identifier := 'ui-radios'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> uiRadiosGrid [
+	identifier := 'ui-radios-grid'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> umbrella [
+	identifier := 'umbrella'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> umbrellaFill [
+	identifier := 'umbrella-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -6263,10 +9023,94 @@ SBSIconTag >> upload [
 	self defineClassFromIdentifier
 ]
 
+{ #category : #icons }
+SBSIconTag >> usb [
+	identifier := 'usb'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbC [
+	identifier := 'usb-c'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbCFill [
+	identifier := 'usb-c-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbDrive [
+	identifier := 'usb-drive'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbDriveFill [
+	identifier := 'usb-drive-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbFill [
+	identifier := 'usb-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbMicro [
+	identifier := 'usb-micro'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbMicroFill [
+	identifier := 'usb-micro-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbMini [
+	identifier := 'usb-mini'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbMiniFill [
+	identifier := 'usb-mini-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbPlug [
+	identifier := 'usb-plug'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbPlugFill [
+	identifier := 'usb-plug-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> usbSymbol [
+	identifier := 'usb-symbol'.
+	self defineClassFromIdentifier
+]
+
 { #category : #accessing }
 SBSIconTag >> useCurrentColor [
 
 	self fill: 'currentColor'
+]
+
+{ #category : #icons }
+SBSIconTag >> vectorPen [
+	identifier := 'vector-pen'.
+	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
@@ -6278,6 +9122,24 @@ SBSIconTag >> viewList [
 { #category : #icons }
 SBSIconTag >> viewStacked [
 	identifier := 'view-stacked'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> vimeo [
+	identifier := 'vimeo'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> vinyl [
+	identifier := 'vinyl'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> vinylFill [
+	identifier := 'vinyl-fill'.
 	self defineClassFromIdentifier
 ]
 
@@ -6365,6 +9227,30 @@ SBSIconTag >> watch [
 	self defineClassFromIdentifier
 ]
 
+{ #category : #icons }
+SBSIconTag >> water [
+	identifier := 'water'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> webcam [
+	identifier := 'webcam'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> webcamFill [
+	identifier := 'webcam-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> whatsapp [
+	identifier := 'whatsapp'.
+	self defineClassFromIdentifier
+]
+
 { #category : #attributes }
 SBSIconTag >> width: anObject [
 
@@ -6396,8 +9282,74 @@ SBSIconTag >> wifiOff [
 ]
 
 { #category : #icons }
+SBSIconTag >> wind [
+	identifier := 'wind'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> window [
 	identifier := 'window'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowDash [
+	identifier := 'window-dash'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowDesktop [
+	identifier := 'window-desktop'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowDock [
+	identifier := 'window-dock'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowFullscreen [
+	identifier := 'window-fullscreen'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowPlus [
+	identifier := 'window-plus'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowSidebar [
+	identifier := 'window-sidebar'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowSplit [
+	identifier := 'window-split'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowStack [
+	identifier := 'window-stack'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windowX [
+	identifier := 'window-x'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> windows [
+	identifier := 'windows'.
 	self defineClassFromIdentifier
 ]
 
@@ -6409,6 +9361,12 @@ SBSIconTag >> with: anObject [
 		with: [ self embedded
 				ifTrue: [ self renderEmbeddedSVG ]
 				ifFalse: [ self renderUseTag ] ]
+]
+
+{ #category : #icons }
+SBSIconTag >> wordpress [
+	identifier := 'wordpress'.
+	self defineClassFromIdentifier
 ]
 
 { #category : #icons }
@@ -6448,6 +9406,12 @@ SBSIconTag >> xDiamondFill [
 ]
 
 { #category : #icons }
+SBSIconTag >> xLg [
+	identifier := 'x-lg'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
 SBSIconTag >> xOctagon [
 	identifier := 'x-octagon'.
 	self defineClassFromIdentifier
@@ -6468,6 +9432,24 @@ SBSIconTag >> xSquare [
 { #category : #icons }
 SBSIconTag >> xSquareFill [
 	identifier := 'x-square-fill'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> xbox [
+	identifier := 'xbox'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> yinYang [
+	identifier := 'yin-yang'.
+	self defineClassFromIdentifier
+]
+
+{ #category : #icons }
+SBSIconTag >> youtube [
+	identifier := 'youtube'.
 	self defineClassFromIdentifier
 ]
 
