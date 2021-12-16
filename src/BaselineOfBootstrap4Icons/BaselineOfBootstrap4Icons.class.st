@@ -9,9 +9,9 @@ BaselineOfBootstrap4Icons >> baseline: spec [
 	<baseline>
 	spec
 		for: #common
-		do: [ self bootstrap4: spec.
+		do: [ self bootstrap5: spec.
 			spec
-				package: 'Bootstrap4-Icons-Core' with: [ spec requires: #('Bootstrap4') ];
+				package: 'Bootstrap4-Icons-Core' with: [ spec requires: #('Bootstrap5') ];
 				package: 'Bootstrap4-Icons-Library'
 					with: [ spec requires: #('Bootstrap4-Icons-Core') ];
 				package: 'Bootstrap4-Icons-Tests'
@@ -28,10 +28,10 @@ BaselineOfBootstrap4Icons >> baseline: spec [
 ]
 
 { #category : #baselines }
-BaselineOfBootstrap4Icons >> bootstrap4: spec [
+BaselineOfBootstrap4Icons >> bootstrap5: spec [
 	spec
-		baseline: 'Bootstrap4'
+		baseline: 'Bootstrap5'
 		with: [ spec
 				loads: #('default'); 
-				repository: 'github://astares/Seaside-Bootstrap4/src' ]
+				repository: 'github://astares/Seaside-Bootstrap5/src' ]
 ]
