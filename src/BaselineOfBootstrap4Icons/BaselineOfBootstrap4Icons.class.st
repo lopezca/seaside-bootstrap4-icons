@@ -9,9 +9,9 @@ BaselineOfBootstrap4Icons >> baseline: spec [
 	<baseline>
 	spec
 		for: #common
-		do: [ self bootstrap4: spec.
+		do: [ "self bootstrap4: spec."
 			spec
-				package: 'Bootstrap4-Icons-Core' with: [ spec requires: #('Bootstrap4') ];
+				package: 'Bootstrap4-Icons-Core' "with: [ spec requires: #('Bootstrap4') ]";
 				package: 'Bootstrap4-Icons-Library'
 					with: [ spec requires: #('Bootstrap4-Icons-Core') ];
 				package: 'Bootstrap4-Icons-Tests'
